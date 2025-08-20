@@ -1,0 +1,6 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "ArkhamHorrorLCG",
+  "creator": "Dondeo",
+  "filler_item_name": "Fast - One Investigator Gain 1 Resource"
+}
