@@ -271,6 +271,12 @@ def EligibleUnlockedInvestigatorCanPlay(world: World, state: CollectionState, pl
     return False
 
 
+onlyStrengthCommits = ["Beat Cop", "Machete", "Guard Dog", "Vicious Blow", "Shotgun", "Medical Texts", ".41 Derringer",
+                       "Sneak Attack", "Shrivelling", "Leather Coat", "Baseball Bat", "Knife", "Overpower"]
+onlyKnowledgeCommits = ["Evidence!", "Extra Ammunition", "Magnifying Glass", "Dr. Milan Christopher", "Working a Hunch",
+                        "Magnifying Glass - Level 1", "Deduction", "Burglary", "Leo De Luca", "Sneak Attack",
+                        "Leo De Luca - Level 1", "Forbidden Knowledge", "Scrying", "Scavenging", "Look What I Found!",
+                        "Flashlight", "Perception"]
 def EligibleUnlockedInvestigatorCanCommit(world: World, state: CollectionState, player: int, itemName: str):
     """Has the player unlocked an investigator that can commit specific card?"""
     if not state.has(itemName, player):
@@ -283,6 +289,15 @@ def EligibleUnlockedInvestigatorCanCommit(world: World, state: CollectionState, 
         if not state.has(investigatorName, player):
             continue
         investigator = world.item_name_to_item[investigatorName]
+
+        # Core Set Specification: Check if commit for strength and knowledge possible
+        if (
+                (currentItem["name"] in onlyStrengthCommits and not state.has(f"{investigator["name"]} can attack", player))
+                or
+                (currentItem["name"] in onlyKnowledgeCommits and not state.has(f"{investigator["name"]} can investigate", player))
+         ):
+            continue
+
 
         # Remove Unnecessary Categories
         categoryFilter = ["Card", "Asset", "Event", "Skill", "Hand Slot", "2 Hand Slots", "Ally Slot", "Body Slot",
