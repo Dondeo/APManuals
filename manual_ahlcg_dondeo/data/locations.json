@@ -59,7 +59,7 @@
                 "The Gathering - Act 2"
             ],
             "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
+            "requires": "{AnyUnlockedInvestigatorCanMove()} and {AnyUnlockedInvestigatorCanInvestigate()}"
         },
         {
             "name": "Attic - Investigated",
@@ -90,7 +90,7 @@
                 "The Gathering - Act 2"
             ],
             "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
+            "requires": "{AnyUnlockedInvestigatorCanMove()} and {AnyUnlockedInvestigatorCanInvestigate()}"
         },
         {
             "name": "Cellar - Investigated",
@@ -122,7 +122,7 @@
                 "The Gathering - Act 3"
             ],
             "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanAttack()}"
+            "requires": "{AnyUnlockedInvestigatorCanAttack()} and {AnyUnlockedInvestigatorCanInvestigate()}"
         },
         {
             "name": "Icy Ghoul - Victory Point",
@@ -133,7 +133,7 @@
                 "The Gathering - Act 3"
             ],
             "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanAttack()}"
+            "requires": "{AnyUnlockedInvestigatorCanAttack()} and {AnyUnlockedInvestigatorCanInvestigate()}"
         },
         {
             "name": "The Barrier - Advanced",
@@ -153,7 +153,7 @@
                 "The Gathering - Act 3"
             ],
             "region": "The Gathering - After Act 2",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()} and {AnyUnlockedInvestigatorCanAttackOrEvade()}"
+            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()} and {AnyUnlockedInvestigatorCanEvade()}"
         },
         {
             "name": "Ghoul Priest - Victory Point 1",
