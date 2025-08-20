@@ -850,52 +850,52 @@
         {
             "name": "Roland .38 Special - Played",
             "category": ["Card Played"],
-            "requires": "|Roland Banks| and |Roland Banks Hand Slot|"
+            "requires": "|Roland Banks| and |Roland Banks Hand Slot| and {UnlockedInvestigatorCanPlay(Roland Banks)}"
         },
         {
             "name": "Roland .38 Special - Committed",
             "category": ["Card Committed"],
-            "requires": "|Roland Banks|"
+            "requires": "|Roland Banks| and {UnlockedInvestigatorCanPlay(Roland Banks)}"
         },
         {
             "name": "Daisy Tote Bag - Played",
             "category": ["Card Played"],
-            "requires": "|Daisy Walker|"
+            "requires": "|Daisy Walker| and {UnlockedInvestigatorCanPlay(Daisy Walker)}"
         },
         {
             "name": "Daisy Tote Bag - Committed",
             "category": ["Card Committed"],
-            "requires": "|Daisy Walker|"
+            "requires": "|Daisy Walker| and {UnlockedInvestigatorCanPlay(Daisy Walker)}"
         },
         {
             "name": "On the Lam - Played",
             "category": ["Card Played"],
-            "requires": "|Skids O Toole|"
+            "requires": "|Skids O Toole| and {UnlockedInvestigatorCanPlay(Skids O Toole)}"
         },
         {
             "name": "On the Lam - Committed",
             "category": ["Card Committed"],
-            "requires": "|Skids O Toole|"
+            "requires": "|Skids O Toole| and {UnlockedInvestigatorCanPlay(Skids O Toole)}"
         },
         {
             "name": "Heirloom of Hyperborea - Played",
             "category": ["Card Played"],
-            "requires": "|Agnes Baker| and |Agnes Baker Accessory Slot|"
+            "requires": "|Agnes Baker| and |Agnes Baker Accessory Slot| and {UnlockedInvestigatorCanPlay(Agnes Baker)}"
         },
         {
             "name": "Heirloom of Hyperborea - Committed",
             "category": ["Card Committed"],
-            "requires": "|Agnes Baker|"
+            "requires": "|Agnes Baker| and {UnlockedInvestigatorCanPlay(Agnes Baker)}"
         },
         {
             "name": "Wendy Amulet - Played",
             "category": ["Card Played"],
-            "requires": "|Wendy Adams| and |Wendy Adams Accessory Slot|"
+            "requires": "|Wendy Adams| and |Wendy Adams Accessory Slot| and {UnlockedInvestigatorCanPlay(Wendy Adams)}"
         },
         {
             "name": "Wendy Amulet - Committed",
             "category": ["Card Committed"],
-            "requires": "|Wendy Adams|"
+            "requires": "|Wendy Adams| and {UnlockedInvestigatorCanPlay(Wendy Adams)}"
         },
         {
             "name": ".45 Automatic - Played",

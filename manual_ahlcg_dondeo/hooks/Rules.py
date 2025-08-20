@@ -26,6 +26,27 @@ import re
 
 # You can also return a string from your function, and it will be evaluated as a requires string.
 
+def UnlockedInvestigatorCanPlay(world: World, state: CollectionState, player: int, investigatorName: str):
+    """Has the player unlocked enough cards to play as specific investigator?"""
+    investigator = world.item_name_to_item[investigatorName]
+    investigatorsName = world.item_name_groups["Investigators"]
+
+    categories: list[str] = list(investigator["category"])
+    categories.remove("Investigators")
+
+    checkedItems = list(state.prog_items[player])
+    for investigatorName in investigatorsName:
+        checkedItems = list(filter(lambda x: x not in investigatorName, checkedItems))
+
+    count = 0
+    for category in categories:
+        categoryItems = world.item_name_groups[category]
+        for categoryItem in categoryItems:
+            count = count + checkedItems.count(categoryItem)
+        if count >= 15:
+            return True
+    return False
+
 def AnyUnlockedInvestigatorCanInvestigate(world: World, state: CollectionState, player: int):
     """Has the player unlocked an investigator that can investigate?"""
     investigators = world.item_name_groups.get("Investigators")
@@ -33,7 +54,9 @@ def AnyUnlockedInvestigatorCanInvestigate(world: World, state: CollectionState, 
         if not state.has(investigator, player):
             continue
         action = f"{investigator} can investigate"
-        if state.has(action, player):
+        if not state.has(action, player):
+            continue
+        if UnlockedInvestigatorCanPlay(world, state, player, investigator):
             return True
     return False
 
@@ -45,7 +68,9 @@ def AnyUnlockedInvestigatorCanMove(world: World, state: CollectionState, player:
         if not state.has(investigator, player):
             continue
         action = f"{investigator} can move"
-        if state.has(action, player):
+        if not state.has(action, player):
+            continue
+        if UnlockedInvestigatorCanPlay(world, state, player, investigator):
             return True
     return False
 
@@ -57,7 +82,9 @@ def AnyUnlockedInvestigatorCanAttack(world: World, state: CollectionState, playe
         if not state.has(investigator, player):
             continue
         action = f"{investigator} can attack"
-        if state.has(action, player):
+        if not state.has(action, player):
+            continue
+        if UnlockedInvestigatorCanPlay(world, state, player, investigator):
             return True
     return False
 
@@ -69,7 +96,9 @@ def AnyUnlockedInvestigatorCanEvade(world: World, state: CollectionState, player
         if not state.has(investigator, player):
             continue
         action = f"{investigator} can evade"
-        if state.has(action, player):
+        if not state.has(action, player):
+            continue
+        if UnlockedInvestigatorCanPlay(world, state, player, investigator):
             return True
     return False
 
@@ -84,7 +113,9 @@ def AnyUnlockedInvestigatorCanAttackOrEvade(world: World, state: CollectionState
             f"{investigator} can attack",
             f"{investigator} can evade"
         }
-        if state.has_any(actions, player):
+        if not state.has_any(actions, player):
+            continue
+        if UnlockedInvestigatorCanPlay(world, state, player, investigator):
             return True
     return False
 
@@ -99,7 +130,9 @@ def AnyUnlockedInvestigatorCanAttackAndEvade(world: World, state: CollectionStat
             f"{investigator} can attack",
             f"{investigator} can evade"
         }
-        if state.has_all(actions, player):
+        if not state.has_all(actions, player):
+            continue
+        if UnlockedInvestigatorCanPlay(world, state, player, investigator):
             return True
     return False
 
@@ -114,7 +147,9 @@ def AnyUnlockedInvestigatorCanMoveAndInvestigate(world: World, state: Collection
             f"{investigator} can move",
             f"{investigator} can investigate"
         }
-        if state.has_all(actions, player):
+        if not state.has_all(actions, player):
+            continue
+        if UnlockedInvestigatorCanPlay(world, state, player, investigator):
             return True
     return False
 
@@ -129,7 +164,9 @@ def AnyUnlockedInvestigatorCanMoveAndAttack(world: World, state: CollectionState
             f"{investigator} can move",
             f"{investigator} can attack"
         }
-        if state.has_all(actions, player):
+        if not state.has_all(actions, player):
+            continue
+        if UnlockedInvestigatorCanPlay(world, state, player, investigator):
             return True
     return False
 
@@ -144,7 +181,9 @@ def AnyUnlockedInvestigatorCanMoveAndEvade(world: World, state: CollectionState,
             f"{investigator} can move",
             f"{investigator} can evade"
         }
-        if state.has_all(actions, player):
+        if not state.has_all(actions, player):
+            continue
+        if UnlockedInvestigatorCanPlay(world, state, player, investigator):
             return True
     return False
 
@@ -159,7 +198,9 @@ def AnyUnlockedInvestigatorCanMoveAndParley(world: World, state: CollectionState
             f"{investigator} can move",
             f"{investigator} can parley"
         }
-        if state.has_all(actions, player):
+        if not state.has_all(actions, player):
+            continue
+        if UnlockedInvestigatorCanPlay(world, state, player, investigator):
             return True
     return False
 
@@ -174,7 +215,9 @@ def AnyUnlockedInvestigatorCanInvestigateAndEvade(world: World, state: Collectio
             f"{investigator} can investigate",
             f"{investigator} can evade"
         }
-        if state.has_all(actions, player):
+        if not state.has_all(actions, player):
+            continue
+        if UnlockedInvestigatorCanPlay(world, state, player, investigator):
             return True
     return False
 
@@ -200,7 +243,9 @@ def AnyUnlockedInvestigatorIsPrepared(world: World, state: CollectionState, play
             f"{investigator} Body Slot",
             f"{investigator} Accessory Slot"
         }
-        if state.has_all(actions, player):
+        if not state.has_all(actions, player):
+            continue
+        if UnlockedInvestigatorCanPlay(world, state, player, investigator):
             return True
     return False
 
@@ -215,7 +260,9 @@ def AnyUnlockedInvestigatorCanPlayLita(world: World, state: CollectionState, pla
             "Lita Chantler",
             f"{investigator} Ally Slot",
         }
-        if state.has_all(conditions, player):
+        if not state.has_all(conditions, player):
+            continue
+        if UnlockedInvestigatorCanPlay(world, state, player, investigator):
             return True
     return False
 
@@ -237,8 +284,8 @@ def EligibleUnlockedInvestigatorCanPlay(world: World, state: CollectionState, pl
             continue
         investigator = world.item_name_to_item[investigatorName]
 
-        if currentItem["name"] == "Blinding Light - Level 2":
-            pass
+        if not UnlockedInvestigatorCanPlay(world, state, player, investigatorName):
+            continue
 
         for category in currentItem["category"]:
             match category:
