@@ -21,6 +21,25 @@ from typing import Type, Any
 # Then, to see if the option is set, you can call is_option_enabled or get_option_value.
 #####################################################################
 
+class CoreSetExpansion(Range):
+    """
+    Number of Core Set boxes you have. This will determine how many number of cards you can afford to make a deck for an investigator.
+    Warning: you need at least 2 Core Set boxes or 1 Revised Core Set Box to make it work.
+    """
+    range_start = 0
+    range_end = 4
+    default = 2
+
+class RevisedCoreSetExpansion(Range):
+    """
+    Number of Revised Core Set boxes you have. This will determine how many number of cards you can afford to make a deck for an investigator.
+    This option will also add revised core set specific cards to logic. (#TODO)
+    Warning: you need at least 2 Core Set boxes or 1 Revised Core Set Box to make it work.
+    """
+    range_start = 0
+    range_end = 2
+    default = 0
+
 class LocationLogic(Choice):
     """
     Some locations are classified as "hard" to obtain. eg: Advance the Act at The Midnight Masks, beating Umôrdhoth to get Resolution.
@@ -178,6 +197,9 @@ class NumberOfStarterSlotArcane(Range):
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
+    options["core_set_expansion"] = CoreSetExpansion
+    options["revised_core_set_expansion"] = RevisedCoreSetExpansion
+
     options["location_logic"] = LocationLogic
 
     options["number_of_starter_investigators"] = NumberOfStarterInvestigators
