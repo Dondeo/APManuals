@@ -849,52 +849,52 @@
         {
             "name": "Roland .38 Special - Played",
             "category": ["Card Played"],
-            "requires": "|Roland Banks| and |Roland Banks Hand Slot| and {UnlockedInvestigatorCanPlay(Roland Banks)}"
+            "requires": "{UnlockedInvestigatorCanPlay(Roland Banks)}"
         },
         {
             "name": "Roland .38 Special - Committed",
             "category": ["Card Committed"],
-            "requires": "|Roland Banks| and {UnlockedInvestigatorCanPlay(Roland Banks)}"
+            "requires": "{UnlockedInvestigatorCanPlay(Roland Banks)}"
         },
         {
             "name": "Daisy Tote Bag - Played",
             "category": ["Card Played"],
-            "requires": "|Daisy Walker| and {UnlockedInvestigatorCanPlay(Daisy Walker)}"
+            "requires": "{UnlockedInvestigatorCanPlay(Daisy Walker)}"
         },
         {
             "name": "Daisy Tote Bag - Committed",
             "category": ["Card Committed"],
-            "requires": "|Daisy Walker| and {UnlockedInvestigatorCanPlay(Daisy Walker)}"
+            "requires": "{UnlockedInvestigatorCanPlay(Daisy Walker)}"
         },
         {
             "name": "On the Lam - Played",
             "category": ["Card Played"],
-            "requires": "|Skids O Toole| and {UnlockedInvestigatorCanPlay(Skids O Toole)}"
+            "requires": "{UnlockedInvestigatorCanPlay(Skids O Toole)}"
         },
         {
             "name": "On the Lam - Committed",
             "category": ["Card Committed"],
-            "requires": "|Skids O Toole| and {UnlockedInvestigatorCanPlay(Skids O Toole)}"
+            "requires": "{UnlockedInvestigatorCanPlay(Skids O Toole)}"
         },
         {
             "name": "Heirloom of Hyperborea - Played",
             "category": ["Card Played"],
-            "requires": "|Agnes Baker| and |Agnes Baker Accessory Slot| and {UnlockedInvestigatorCanPlay(Agnes Baker)}"
+            "requires": "{UnlockedInvestigatorCanPlay(Agnes Baker)}"
         },
         {
             "name": "Heirloom of Hyperborea - Committed",
             "category": ["Card Committed"],
-            "requires": "|Agnes Baker| and {UnlockedInvestigatorCanPlay(Agnes Baker)}"
+            "requires": "{UnlockedInvestigatorCanPlay(Agnes Baker)}"
         },
         {
             "name": "Wendy Amulet - Played",
             "category": ["Card Played"],
-            "requires": "|Wendy Adams| and |Wendy Adams Accessory Slot| and {UnlockedInvestigatorCanPlay(Wendy Adams)}"
+            "requires": "{UnlockedInvestigatorCanPlay(Wendy Adams)}"
         },
         {
             "name": "Wendy Amulet - Committed",
             "category": ["Card Committed"],
-            "requires": "|Wendy Adams| and {UnlockedInvestigatorCanPlay(Wendy Adams)}"
+            "requires": "{UnlockedInvestigatorCanPlay(Wendy Adams)}"
         },
         {
             "name": ".45 Automatic - Played",
@@ -1379,7 +1379,7 @@
         {
             "name": "Extra Ammunition - Played",
             "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Extra Ammunition)}"
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Extra Ammunition)} and {EligibleUnlockedInvestigatorCanPlaceFirearm()}"
         },
         {
             "name": "Extra Ammunition - Committed",
@@ -1424,7 +1424,7 @@
         {
             "name": "Elusive - Played",
             "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Elusive)}"
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Elusive,move)}"
         },
         {
             "name": "Elusive - Committed",
@@ -1434,7 +1434,7 @@
         {
             "name": "Backstab - Played",
             "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Backstab)}"
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Backstab,attack)}"
         },
         {
             "name": "Backstab - Committed",
@@ -1444,7 +1444,7 @@
         {
             "name": "Sneak Attack - Played",
             "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Sneak Attack)}"
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Sneak Attack)} and {AnyUnlockedInvestigatorWithActions(evade)}"
         },
         {
             "name": "Sneak Attack - Committed",
@@ -1489,7 +1489,7 @@
         {
             "name": "Blinding Light - Played",
             "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Blinding Light)}"
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Blinding Light,evade)}"
         },
         {
             "name": "Blinding Light - Committed",
@@ -1509,7 +1509,7 @@
         {
             "name": "Blinding Light - Level 2 - Played",
             "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Blinding Light - Level 2)}"
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Blinding Light - Level 2,evade)}"
         },
         {
             "name": "Blinding Light - Level 2 - Committed",
@@ -1519,7 +1519,7 @@
         {
             "name": "Cunning Distraction - Played",
             "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Cunning Distraction)}"
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Cunning Distraction,evade)}"
         },
         {
             "name": "Cunning Distraction - Committed",
@@ -1529,7 +1529,7 @@
         {
             "name": "Look what I found! - Played",
             "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Look what I found!)}"
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Look what I found!,investigate)}"
         },
         {
             "name": "Look what I found! - Committed",
@@ -1544,7 +1544,7 @@
         {
             "name": "Close Call - Played",
             "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Close Call)}"
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Close Call)} and {AnyUnlockedInvestigatorWithActions(evade)}"
         },
         {
             "name": "Close Call - Committed",

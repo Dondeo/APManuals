@@ -143,8 +143,6 @@ def EligibleUnlockedInvestigatorCanPlay(world: World, state: CollectionState, pl
         #Check actions
         if actions is not None and not HasInvestigatorActions(world, state, player, investigatorName, actions.split("+")):
             continue
-        if actions is not None:
-            pass
         if not UnlockedInvestigatorCanPlay(world, state, player, investigatorName):
             continue
 
@@ -158,6 +156,32 @@ def EligibleUnlockedInvestigatorCanPlay(world: World, state: CollectionState, pl
                 break
         if res:
             return True
+    return False
+
+# Need testing
+firearms = {"Roland Banks": 1, ".45 Automatic": 1, ".41 Derringer": 1, "Shotgun": 2}
+def EligibleUnlockedInvestigatorCanPlaceFirearm(world: World, state: CollectionState, player: int):
+    """Has the player unlocked an investigator that can place a firearm?"""
+
+    investigatorsNames = world.item_name_groups.get("Investigators")
+
+    for firearm in firearms:
+        currentItem = world.item_name_to_item[firearm]
+        if not state.has(f"{firearm}", player):
+            continue
+        if ("Investigators" in currentItem["category"]):
+            if not state.has(f"{firearm} Hand Slot", player, firearms[firearm]):
+                continue
+            if UnlockedInvestigatorCanPlay(world, state, player, firearm):
+                return True
+        else:
+            for investigator in investigatorsNames:
+                if not state.has(f"{investigator}", player):
+                    continue
+                if not state.has(f"{investigator} Hand Slot", player, firearms[firearm]):
+                    continue
+                if EligibleUnlockedInvestigatorCanPlay(world, state, player, firearm):
+                    return True
     return False
 
 
