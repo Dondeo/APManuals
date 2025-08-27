@@ -1,6 +1,7 @@
 # Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
 from worlds.AutoWorld import World
 from BaseClasses import MultiWorld, CollectionState, Item
+from Options import OptionError
 
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
 from ..Items import ManualItem
@@ -16,6 +17,7 @@ from ..Helpers import is_option_enabled, get_option_value, format_state_prog_ite
 
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
+
 
 ########################################################################################
 ## Order of method calls when the world generates:
@@ -38,6 +40,8 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
+    if world.options.revised_core_set_expansion.value == 0 and world.options.core_set_expansion.value < 1:
+        raise OptionError("One of the following options must have a value: Revised Core Set Expansion > 0; Core Set Expansion > 1")
     pass
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.

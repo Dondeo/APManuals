@@ -6,14 +6,10 @@ from BaseClasses import CollectionState
 import re
 
 def TwoUnlockedInvestigatorsCanPlayTogether(world: World, state: CollectionState, player: int, investigatorsName: tuple[str, str]):
-    investigatorsUnlocked = []
     decks = {}
-    playableInvestigator = 0
-    for investigatorName in investigatorsUnlocked:
-        decks[investigatorName] = list(GetCardsInvestigatorCanPlay(world, state, player, investigatorName))
-        if len(decks[investigatorName]) >= 15:
-            playableInvestigator += 1
-    if playableInvestigator < 2:
+    decks[investigatorsName[0]] = list(GetCardsInvestigatorCanPlay(world, state, player, investigatorsName[0]))
+    decks[investigatorsName[1]] = list(GetCardsInvestigatorCanPlay(world, state, player, investigatorsName[1]))
+    if len(decks[investigatorsName[0]]) < 15 or len(decks[investigatorsName[1]]) < 15:
         return False
     
     common_adder = 2 * int(get_option_value(world.multiworld, player, "revised_core_set_expansion")) + int(get_option_value(world.multiworld, player, "core_set_expansion")) - 2
@@ -23,11 +19,14 @@ def TwoUnlockedInvestigatorsCanPlayTogether(world: World, state: CollectionState
     if (common_adder >= 2):
         return True
     
-    firstDeck = decks[investigatorsUnlocked[0]]
-    secondDeck = decks[investigatorsUnlocked[1]]
-    common = list(filter(lambda x: x in secondDeck, firstDeck))
-    firstDeck.remove(common)
-    secondDeck.remove(common)
+    firstDeck = decks[investigatorsName[0]]
+    secondDeck = decks[investigatorsName[1]]
+    common = set(decks[investigatorsName[0]]).intersection(decks[investigatorsName[1]]) 
+    for commonCard in common:
+        if commonCard in firstDeck:
+            firstDeck.remove(commonCard)
+        if commonCard in secondDeck:
+            secondDeck.remove(commonCard)
     return len(firstDeck) * 2 + len(secondDeck) * 2 + len(common) * common_adder >= 60
 
 
@@ -54,9 +53,9 @@ def TwoUnlockedInvestigatorsWithActions(world: World, state: CollectionState, pl
             if investigator1 == investigator2 or (investigator1, investigator2) in couple or (investigator2, investigator1) in couple:
                 continue
             couple.append((investigator1, investigator2))
-        res = TwoUnlockedInvestigatorsCanPlayTogether(world, state, player, (investigator1, investigator2))
-        if res:
-            return True
+            res = TwoUnlockedInvestigatorsCanPlayTogether(world, state, player, (investigator1, investigator2))
+            if res:
+                return True
     return False
 
 
