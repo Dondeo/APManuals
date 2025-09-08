@@ -593,7 +593,7 @@
             "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
-            "name": "Arkham Woods: Twisted Path - Revealed",
+            "name": "Arkham Woods: Twisting Path - Revealed",
             "category": [
                 "Location",
                 "The Devourer Below",
@@ -605,7 +605,7 @@
             "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
-            "name": "Arkham Woods: Twisted Path - Investigated",
+            "name": "Arkham Woods: Twisting Path - Investigated",
             "category": [
                 "Location",
                 "The Devourer Below",

@@ -168,11 +168,14 @@ def EligibleUnlockedInvestigatorCanPlaceFirearm(world: World, state: CollectionS
         currentItem = world.item_name_to_item[firearm]
         if not state.has(f"{firearm}", player):
             continue
+
+        # Investigator: Check for his signature card
         if ("Investigators" in currentItem["category"]):
             if not state.has(f"{firearm} Hand Slot", player, firearms[firearm]):
                 continue
             if UnlockedInvestigatorCanPlay(world, state, player, firearm):
                 return True
+        # Card: Generic check
         else:
             for investigator in investigatorsNames:
                 if not state.has(f"{investigator}", player):
@@ -185,13 +188,15 @@ def EligibleUnlockedInvestigatorCanPlaceFirearm(world: World, state: CollectionS
 
 
 onlyStrengthCommits = ["Beat Cop", "Machete", "Guard Dog", "Vicious Blow", "Shotgun", "Medical Texts", ".41 Derringer",
-                       "Sneak Attack", "Shrivelling", "Leather Coat", "Baseball Bat", "Knife", "Overpower"]
+                       "Sneak Attack", "Shriveling", "Leather Coat", "Baseball Bat", "Knife", "Overpower"]
 onlyKnowledgeCommits = ["Evidence!", "Extra Ammunition", "Magnifying Glass", "Dr. Milan Christopher", "Working a Hunch",
                         "Magnifying Glass - Level 1", "Deduction", "Burglary", "Leo De Luca", "Sneak Attack",
                         "Leo De Luca - Level 1", "Forbidden Knowledge", "Scrying", "Scavenging", "Look What I Found!",
                         "Flashlight", "Perception"]
 def EligibleUnlockedInvestigatorCanCommit(world: World, state: CollectionState, player: int, itemName: str):
     """Has the player unlocked an investigator that can commit specific card?"""
+
+    # Check if card unlocked
     if not state.has(itemName, player):
         return False
     currentItem = world.item_name_to_item[itemName]
@@ -199,18 +204,12 @@ def EligibleUnlockedInvestigatorCanCommit(world: World, state: CollectionState, 
 
     for investigatorName in investigatorsNames:
         res = True
+        # Check if investigator unlocked
         if not state.has(investigatorName, player):
             continue
         investigator = world.item_name_to_item[investigatorName]
 
-        # Core Set Specification: Check if commit for strength and knowledge possible
-        if (
-                (currentItem["name"] in onlyStrengthCommits and not state.has(f"{investigator["name"]} can attack", player))
-                or
-                (currentItem["name"] in onlyKnowledgeCommits and not state.has(f"{investigator["name"]} can investigate", player))
-         ):
-            continue
-
+        # Check if investigator can play (enough cards to create deck)
         if not UnlockedInvestigatorCanPlay(world, state, player, investigatorName):
             continue
 
@@ -219,12 +218,28 @@ def EligibleUnlockedInvestigatorCanCommit(world: World, state: CollectionState, 
                           "Arcane Slot", "2 Arcane Slots", "Accessory Slot"]
         currentItemCategories = list(filter(lambda x: x not in categoryFilter, currentItem["category"]))
 
+        # Check if Investigator has requirements to have card into his deck
         for category in currentItemCategories:
             res = res and category in investigator["category"]
             if not res:
                 break
         if res:
-            return True
+            # Core Set Specification: Check if commit for strength and knowledge possible
+            actionsCommit = []
+            if currentItem["name"] in onlyStrengthCommits:
+                actionsCommit.append("attack")
+            if currentItem["name"] in onlyKnowledgeCommits:
+                actionsCommit.append("investigate")
+
+            # If not actions to commit: Valid
+            if len(actionsCommit) == 0:
+                return True
+
+            # Check if any playable investigator has necessary action to make commit card possible
+            for action in actionsCommit:
+                hasActionCommit = AnyUnlockedInvestigatorWithActions(world, state, player, action)
+                if hasActionCommit:
+                    return True
     return False
 
 
