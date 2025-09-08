@@ -1,0 +1,906 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+        {
+            "name": "Bandolier",
+            "category": [
+                "Card",
+                "Asset",
+                "Body Slot",
+                "Guardian Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Blackjack",
+            "category": [
+                "Card",
+                "Asset",
+                "hand Slot",
+                "Guardian Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Brother Xavier",
+            "category": [
+                "Card",
+                "Asset",
+                "Ally Slot",
+                "Guardian Level 1"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Keen Eye",
+            "category": [
+                "Card",
+                "Asset",
+                "Permanent",
+                "Guardian Level 3"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Lightning Gun",
+            "category": [
+                "Card",
+                "Asset",
+                "2 Hand Slots",
+                "Guardian Level 5"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Springfield M1903",
+            "category": [
+                "Card",
+                "Asset",
+                "2 Hand Slots Slot",
+                "Guardian Level 4"
+            ],
+            "progression": true
+        },
+        {
+            "name": "I ve had worse...",
+            "category": [
+                "Card",
+                "Event",
+                "Guardian Level 4"
+            ],
+            "progression": true
+        },
+        {
+            "name": "If it bleeds...",
+            "category": [
+                "Card",
+                "Event",
+                "Guardian Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Emergency Aid",
+            "category": [
+                "Card",
+                "Event",
+                "Guardian Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Monster Slayer",
+            "category": [
+                "Card",
+                "Event",
+                "Guardian Level 5"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Prepared for the Worst",
+            "category": [
+                "Card",
+                "Event",
+                "Guardian Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Stand Together",
+            "category": [
+                "Card",
+                "Event",
+                "Guardian Level 3"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Taunt",
+            "category": [
+                "Card",
+                "Event",
+                "Guardian Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Taunt - Level 2",
+            "category": [
+                "Card",
+                "Event",
+                "Guardian Level 2"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Teamwork",
+            "category": [
+                "Card",
+                "Event",
+                "Guardian Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Leadership",
+            "category": [
+                "Card",
+                "Skill",
+                "Guardian Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Vicious Blow - Level 2",
+            "category": [
+                "Card",
+                "Skill",
+                "Guardian Level 2"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Art Student",
+            "category": [
+                "Card",
+                "Asset",
+                "Ally Slot",
+                "Seeker Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Dr. William T. Maleson",
+            "category": [
+                "Card",
+                "Asset",
+                "Ally Slot",
+                "Seeker Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Higher Education",
+            "category": [
+                "Card",
+                "Asset",
+                "Permanent",
+                "Seeker Level 3"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Laboratory Assistant",
+            "category": [
+                "Card",
+                "Asset",
+                "Ally Slot",
+                "Seeker Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Pathfinder",
+            "category": [
+                "Card",
+                "Asset",
+                "Seeker Level 1"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Strange Solution: Unidentified",
+            "category": [
+                "Card",
+                "Asset",
+                "Seeker Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Strange Solution: Restorative concoction",
+            "category": [
+                "Card",
+                "Asset",
+                "Seeker Level 4"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Strange Solution: Acidic Ichor",
+            "category": [
+                "Card",
+                "Asset",
+                "Seeker Level 4"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Strange Solution: Freezing Variant",
+            "category": [
+                "Card",
+                "Asset",
+                "Seeker Level 4"
+            ],
+            "progression": true
+        },
+        {
+            "name": "I ve got a plan!",
+            "category": [
+                "Card",
+                "Event",
+                "Seeker Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Deciphered Reality",
+            "category": [
+                "Card",
+                "Event",
+                "Seeker Level 5"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Expose Weakness - Level 1",
+            "category": [
+                "Card",
+                "Event",
+                "Seeker Level 1"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Preposterous Sketches",
+            "category": [
+                "Card",
+                "Event",
+                "Seeker Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Seeking Answers",
+            "category": [
+                "Card",
+                "Event",
+                "Seeker Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Shortcut",
+            "category": [
+                "Card",
+                "Event",
+                "Seeker Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Deduction - Level 2",
+            "category": [
+                "Card",
+                "Skill",
+                "Seeker Level 2"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Inquiring Mind",
+            "category": [
+                "Card",
+                "Skill",
+                "Seeker Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Aquinnah - Level 3",
+            "category": [
+                "Card",
+                "Asset",
+                "Ally Slot",
+                "Survivor Level 3"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Dark Horse",
+            "category": [
+                "Card",
+                "Asset",
+                "Exceptional",
+                "Survivor Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Fire Axe",
+            "category": [
+                "Card",
+                "Asset",
+                "Hand Slot",
+                "Survivor Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Fire Extinguisher",
+            "category": [
+                "Card",
+                "Asset",
+                "Hand Slot",
+                "Survivor Level 1"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Newspaper",
+            "category": [
+                "Card",
+                "Asset",
+                "Hand Slot",
+                "Survivor Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Peter Sylvestre",
+            "category": [
+                "Card",
+                "Asset",
+                "Ally Slot",
+                "Survivor Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Peter Sylvestre - Level 2",
+            "category": [
+                "Card",
+                "Asset",
+                "Ally Slot",
+                "Survivor Level 2"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Scrapper",
+            "category": [
+                "Card",
+                "Asset",
+                "Permanent",
+                "Survivor Level 3"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Try and Try Again",
+            "category": [
+                "Card",
+                "Asset",
+                "Ally Slot",
+                "Survivor Level 3"
+            ],
+            "progression": true
+        },
+        {
+            "name": "A Chance Encounter",
+            "category": [
+                "Card",
+                "Event",
+                "Survivor Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Bait and Switch",
+            "category": [
+                "Card",
+                "Event",
+                "Survivor Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Flare",
+            "category": [
+                "Card",
+                "Event",
+                "Survivor Level 1"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Lure",
+            "category": [
+                "Card",
+                "Event",
+                "Survivor Level 1"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Oops!",
+            "category": [
+                "Card",
+                "Event",
+                "Survivor Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Rise to the Occasion",
+            "category": [
+                "Card",
+                "Skill",
+                "Survivor Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Stroke of Luck",
+            "category": [
+                "Card",
+                "Skill",
+                "Survivor Level 2"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Survival Instinct - Level 2",
+            "category": [
+                "Card",
+                "Skill",
+                "Survivor Level 2"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Adaptable",
+            "category": [
+                "Card",
+                "Asset",
+                "Permanent",
+                "Rogue Level 1"
+            ],
+            "filler": true
+        },
+        {
+            "name": "Chicago Typewriter",
+            "category": [
+                "Card",
+                "Asset",
+                "2 Hand Slots",
+                "Rogue Level 4"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Hired Muscle",
+            "category": [
+                "Card",
+                "Asset",
+                "Ally Slot",
+                "Rogue Level 1"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Joey The Rat Vigil",
+            "category": [
+                "Card",
+                "Asset",
+                "Ally Slot",
+                "Rogue Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Liquid Courage",
+            "category": [
+                "Card",
+                "Asset",
+                "Rogue Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Lone Wolf",
+            "category": [
+                "Card",
+                "Asset",
+                "Exceptional",
+                "Rogue Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Lucky Dice",
+            "category": [
+                "Card",
+                "Asset",
+                "Accessory Slot",
+                "Exceptional",
+                "Rogue Level 2"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Streetwise",
+            "category": [
+                "Card",
+                "Asset",
+                "Permanent",
+                "Rogue Level 3"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Switchblade - Level 2",
+            "category": [
+                "Card",
+                "Asset",
+                "Hand Slot",
+                "Rogue Level 2"
+            ],
+            "progression": true
+        },
+        {
+            "name": "The Gold Pocket Watch",
+            "category": [
+                "Card",
+                "Asset",
+                "Accessory Slot",
+                "Exceptional",
+                "Rogue Level 4"
+            ],
+            "progression": true
+        },
+        {
+            "name": "I m outta here!",
+            "category": [
+                "Card",
+                "Event",
+                "Rogue Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Ace in the Hole",
+            "category": [
+                "Card",
+                "Event",
+                "Exceptional",
+                "Rogue Level 3"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Contraband",
+            "category": [
+                "Card",
+                "Event",
+                "Rogue Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Think on Your Feet",
+            "category": [
+                "Card",
+                "Event",
+                "Rogue Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Double or Nothing",
+            "category": [
+                "Card",
+                "Event",
+                "Rogue Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Opportunist - Level 2",
+            "category": [
+                "Card",
+                "Skill",
+                "Rogue Level 2"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Quick Thinking",
+            "category": [
+                "Card",
+                "Skill",
+                "Rogue Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Alyssa Graham",
+            "category": [
+                "Card",
+                "Asset",
+                "Ally Slot",
+                "Mystic Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Blood Pact",
+            "category": [
+                "Card",
+                "Asset",
+                "Permanent",
+                "Mystic Level 3"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Clarity of Mind",
+            "category": [
+                "Card",
+                "Asset",
+                "Arcane Slot",
+                "Mystic Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Jewel of Aureolus",
+            "category": [
+                "Card",
+                "Asset",
+                "Accessory Slot",
+                "Mystic Level 3"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Rite of Seeking",
+            "category": [
+                "Card",
+                "Asset",
+                "Arcane Slot",
+                "Mystic Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Rite of Seeking - Level 4",
+            "category": [
+                "Card",
+                "Asset",
+                "Arcane Slot",
+                "Mystic Level 4"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Ritual Candles",
+            "category": [
+                "Card",
+                "Asset",
+                "Hand Slot",
+                "Mystic Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Shriveling - Level 3",
+            "category": [
+                "Card",
+                "Asset",
+                "Arcane Slot",
+                "Mystic Level 3"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Shriveling - Level 5",
+            "category": [
+                "Card",
+                "Asset",
+                "Arcane Slot",
+                "Mystic Level 5"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Song of the Dead",
+            "category": [
+                "Card",
+                "Asset",
+                "Arcane Slot",
+                "Mystic Level 2"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Bind Monster",
+            "category": [
+                "Card",
+                "Event",
+                "Mystic Level 2"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Delve Too Deep",
+            "category": [
+                "Card",
+                "Event",
+                "Mystic Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Hypnotic Gaze",
+            "category": [
+                "Card",
+                "Event",
+                "Mystic Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Moonlight Ritual",
+            "category": [
+                "Card",
+                "Event",
+                "Mystic Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Ward of Protection - Level 5",
+            "category": [
+                "Card",
+                "Event",
+                "Mystic Level 5"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Defiance",
+            "category": [
+                "Card",
+                "Skill",
+                "Mystic Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Fearless - Level 2",
+            "category": [
+                "Card",
+                "Skill",
+                "Mystic Level 2"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Charisma",
+            "category": [
+                "Card",
+                "Asset",
+                "Permanent",
+                "Neutral Level 3"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Fine Clothes",
+            "category": [
+                "Card",
+                "Asset",
+                "Body Slot",
+                "Neutral Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Kukri",
+            "category": [
+                "Card",
+                "Asset",
+                "Hand Slot",
+                "Neutral Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Painkillers",
+            "category": [
+                "Card",
+                "Asset",
+                "Neutral Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Relic Hunter",
+            "category": [
+                "Card",
+                "Asset",
+                "Permanent",
+                "Neutral Level 3"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Smoking Pipe",
+            "category": [
+                "Card",
+                "Asset",
+                "Neutral Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "The Red-Gloved Man",
+            "category": [
+                "Card",
+                "Asset",
+                "Ally Slot",
+                "Neutral Level 5"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Emergency Cache - Level 2",
+            "category": [
+                "Card",
+                "Event",
+                "Neutral Level 2"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Moment of Respite",
+            "category": [
+                "Card",
+                "Event",
+                "Neutral Level 3"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Search for the Truth",
+            "category": [
+                "Card",
+                "Event",
+                "Neutral Level 0"
+            ],
+            "progression": true
+        }
+    ]
+}

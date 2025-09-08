@@ -1,0 +1,50 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Zoey Cross - Played",
+            "category": ["Card Played"],
+            "requires": "|Zoey Samaras|"
+        },
+        {
+            "name": "Zoey Cross - Committed",
+            "category": ["Card Committed"],
+            "requires": "|Zoey Samaras|"
+        },
+        {
+            "name": "Search for the Truth - Played",
+            "category": ["Card Played"],
+            "requires": "|Rex Murphy|"
+        },
+        {
+            "name": "Search for the Truth - Committed",
+            "category": ["Card Committed"],
+            "requires": "|Rex Murphy|"
+        },
+        {
+            "name": "Duke - Played",
+            "category": ["Card Played"],
+            "requires": "|Ashcan Pete|"
+        },
+        {
+            "name": "Jenny Twin .45s - Played",
+            "category": ["Card Played"],
+            "requires": "|Jenny Barnes|"
+        },
+        {
+            "name": "Jenny Twin .45s - Committed",
+            "category": ["Card Committed"],
+            "requires": "|Jenny Barnes|"
+        },
+        {
+            "name": "Jim Trumpet - Played",
+            "category": ["Card Played"],
+            "requires": "|Jim Culver|"
+        },
+        {
+            "name": "Jim Trumpet - Committed",
+            "category": ["Card Committed"],
+            "requires": "|Jim Culver|"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Roland .38 Special - Played",
+            "category": ["Card Played"],
+            "requires": "{UnlockedInvestigatorCanPlay(Roland Banks)}"
+        },
+        {
+            "name": "Roland .38 Special - Committed",
+            "category": ["Card Committed"],
+            "requires": "{UnlockedInvestigatorCanPlay(Roland Banks)}"
+        },
+        {
+            "name": "Daisy Tote Bag - Played",
+            "category": ["Card Played"],
+            "requires": "{UnlockedInvestigatorCanPlay(Daisy Walker)}"
+        },
+        {
+            "name": "Daisy Tote Bag - Committed",
+            "category": ["Card Committed"],
+            "requires": "{UnlockedInvestigatorCanPlay(Daisy Walker)}"
+        },
+        {
+            "name": "On the Lam - Played",
+            "category": ["Card Played"],
+            "requires": "{UnlockedInvestigatorCanPlay(Skids O Toole)}"
+        },
+        {
+            "name": "On the Lam - Committed",
+            "category": ["Card Committed"],
+            "requires": "{UnlockedInvestigatorCanPlay(Skids O Toole)}"
+        },
+        {
+            "name": "Heirloom of Hyperborea - Played",
+            "category": ["Card Played"],
+            "requires": "{UnlockedInvestigatorCanPlay(Agnes Baker)}"
+        },
+        {
+            "name": "Heirloom of Hyperborea - Committed",
+            "category": ["Card Committed"],
+            "requires": "{UnlockedInvestigatorCanPlay(Agnes Baker)}"
+        },
+        {
+            "name": "Wendy Amulet - Played",
+            "category": ["Card Played"],
+            "requires": "{UnlockedInvestigatorCanPlay(Wendy Adams)}"
+        },
+        {
+            "name": "Wendy Amulet - Committed",
+            "category": ["Card Committed"],
+            "requires": "{UnlockedInvestigatorCanPlay(Wendy Adams)}"
+        }
+    ]
+}

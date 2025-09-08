@@ -1,0 +1,800 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Bandolier - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Bandolier)}"
+        },
+        {
+            "name": "Bandolier - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Bandolier)}"
+        },
+        {
+            "name": "Blackjack - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Blackjack)}"
+        },
+        {
+            "name": "Blackjack - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Blackjack)}"
+        },
+        {
+            "name": "Brother Xavier - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Brother Xavier)}"
+        },
+        {
+            "name": "Brother Xavier - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Brother Xavier)}"
+        },
+        {
+            "name": "Lightning Gun - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Lightning Gun)}"
+        },
+        {
+            "name": "Lightning Gun - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Lightning Gun)}"
+        },
+        {
+            "name": "Springfield M1903 - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Springfield M1903)}"
+        },
+        {
+            "name": "Springfield M1903 - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Springfield M1903)}"
+        },
+        {
+            "name": "I ve had worse... - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(I ve had worse...)}"
+        },
+        {
+            "name": "I ve had worse... - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(I ve had worse...)}"
+        },
+        {
+            "name": "If it bleeds... - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(If it bleeds...)}"
+        },
+        {
+            "name": "If it bleeds... - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(If it bleeds...)}"
+        },
+        {
+            "name": "Emergency Aid - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Emergency Aid)}"
+        },
+        {
+            "name": "Emergency Aid - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Emergency Aid)}"
+        },
+        {
+            "name": "Monster Slayer - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Monster Slayer)}"
+        },
+        {
+            "name": "Monster Slayer - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Monster Slayer)}"
+        },
+        {
+            "name": "Prepared for the Worst - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Prepared for the Worst)}"
+        },
+        {
+            "name": "Prepared for the Worst - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Prepared for the Worst)}"
+        },
+        {
+            "name": "Stand Together - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Stand Together)}"
+        },
+        {
+            "name": "Stand Together - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Stand Together)}"
+        },
+        {
+            "name": "Taunt - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Taunt)}"
+        },
+        {
+            "name": "Taunt - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Taunt)}"
+        },
+        {
+            "name": "Taunt - Level 2 - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Taunt - Level 2)}"
+        },
+        {
+            "name": "Taunt - Level 2 - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Taunt - Level 2)}"
+        },
+        {
+            "name": "Teamwork - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Teamwork)}"
+        },
+        {
+            "name": "Teamwork - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Teamwork)}"
+        },
+        {
+            "name": "Leadership - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Leadership)}"
+        },
+        {
+            "name": "Vicious Blow - Level 2 - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Vicious Blow - Level 2)}"
+        },
+        {
+            "name": "Art Student - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Art Student)}"
+        },
+        {
+            "name": "Art Student - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Art Student)}"
+        },
+        {
+            "name": "Dr. William T. Maleson - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Dr. William T. Maleson)}"
+        },
+        {
+            "name": "Dr. William T. Maleson - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Dr. William T. Maleson)}"
+        },
+        {
+            "name": "Laboratory Assistant - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Laboratory Assistant)}"
+        },
+        {
+            "name": "Laboratory Assistant - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Laboratory Assistant)}"
+        },
+        {
+            "name": "Pathfinder - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Pathfinder)}"
+        },
+        {
+            "name": "Pathfinder - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Pathfinder)}"
+        },
+        {
+            "name": "Strange Solution: Unidentified - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Strange Solution: Unidentified)}"
+        },
+        {
+            "name": "Strange Solution: Unidentified - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Strange Solution: Unidentified)}"
+        },
+        {
+            "name": "Strange Solution: Restorative concoction - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Strange Solution: Restorative concoction)}"
+        },
+        {
+            "name": "Strange Solution: Restorative concoction - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Strange Solution: Restorative concoction)}"
+        },
+        {
+            "name": "Strange Solution: Acidic Ichor - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Strange Solution: Acidic Ichor)}"
+        },
+        {
+            "name": "Strange Solution: Acidic Ichor - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Strange Solution: Acidic Ichor)}"
+        },
+        {
+            "name": "Strange Solution: Freezing Variant - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Strange Solution: Freezing Variant)}"
+        },
+        {
+            "name": "Strange Solution: Freezing Variant - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Strange Solution: Freezing Variant)}"
+        },
+        {
+            "name": "I ve got a plan! - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(I ve got a plan!)}"
+        },
+        {
+            "name": "I ve got a plan! - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(I ve got a plan!)}"
+        },
+        {
+            "name": "Deciphered Reality - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Deciphered Reality)}"
+        },
+        {
+            "name": "Deciphered Reality - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Deciphered Reality)}"
+        },
+        {
+            "name": "Expose Weakness - Level 1 - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Expose Weakness - Level 1)}"
+        },
+        {
+            "name": "Expose Weakness - Level 1 - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Expose Weakness - Level 1)}"
+        },
+        {
+            "name": "Preposterous Sketches - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Preposterous Sketches)}"
+        },
+        {
+            "name": "Preposterous Sketches - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Preposterous Sketches)}"
+        },
+        {
+            "name": "Seeking Answers - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Seeking Answers)}"
+        },
+        {
+            "name": "Seeking Answers - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Seeking Answers)}"
+        },
+        {
+            "name": "Shortcut - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Shortcut)}"
+        },
+        {
+            "name": "Shortcut - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Shortcut)}"
+        },
+        {
+            "name": "Deduction - Level 2 - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Deduction - Level 2)}"
+        },
+        {
+            "name": "Inquiring Mind - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Inquiring Mind)}"
+        },
+        {
+            "name": "Aquinnah - Level 3 - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Aquinnah - Level 3)}"
+        },
+        {
+            "name": "Aquinnah - Level 3 - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Aquinnah - Level 3)}"
+        },
+        {
+            "name": "Dark Horse - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Dark Horse)}"
+        },
+        {
+            "name": "Dark Horse - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Dark Horse)}"
+        },
+        {
+            "name": "Fire Axe - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Fire Axe)}"
+        },
+        {
+            "name": "Fire Axe - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Fire Axe)}"
+        },
+        {
+            "name": "Fire Extinguisher - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Fire Extinguisher)}"
+        },
+        {
+            "name": "Fire Extinguisher - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Fire Extinguisher)}"
+        },
+        {
+            "name": "Newspaper - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Newspaper)}"
+        },
+        {
+            "name": "Newspaper - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Newspaper)}"
+        },
+        {
+            "name": "Peter Sylvestre - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Peter Sylvestre)}"
+        },
+        {
+            "name": "Peter Sylvestre - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Peter Sylvestre)}"
+        },
+        {
+            "name": "Peter Sylvestre - Level 2 - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Peter Sylvestre - Level 2)}"
+        },
+        {
+            "name": "Peter Sylvestre - Level 2 - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Peter Sylvestre - Level 2)}"
+        },
+        {
+            "name": "Try and Try Again - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Try and Try Again)}"
+        },
+        {
+            "name": "Try and Try Again - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Try and Try Again)}"
+        },
+        {
+            "name": "A Chance Encounter - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(A Chance Encounter)}"
+        },
+        {
+            "name": "A Chance Encounter - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(A Chance Encounter)}"
+        },
+        {
+            "name": "Bait and Switch - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Bait and Switch)}"
+        },
+        {
+            "name": "Bait and Switch - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Bait and Switch)}"
+        },
+        {
+            "name": "Flare - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Flare)}"
+        },
+        {
+            "name": "Flare - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Flare)}"
+        },
+        {
+            "name": "Lure - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Lure)}"
+        },
+        {
+            "name": "Lure - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Lure)}"
+        },
+        {
+            "name": "Oops! - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Oops!)}"
+        },
+        {
+            "name": "Oops! - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Oops!)}"
+        },
+        {
+            "name": "Rise to the Occasion - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Rise to the Occasion)}"
+        },
+        {
+            "name": "Stroke of Luck - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Stroke of Luck)}"
+        },
+        {
+            "name": "Survival Instinct - Level 2 - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Survival Instinct - Level 2)}"
+        },
+        {
+            "name": "Chicago Typewriter - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Chicago Typewriter)}"
+        },
+        {
+            "name": "Chicago Typewriter - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Chicago Typewriter)}"
+        },
+        {
+            "name": "Hired Muscle - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Hired Muscle)}"
+        },
+        {
+            "name": "Hired Muscle - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Hired Muscle)}"
+        },
+        {
+            "name": "Joey The Rat Vigil - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Joey The Rat Vigil)}"
+        },
+        {
+            "name": "Joey The Rat Vigil - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Joey The Rat Vigil)}"
+        },
+        {
+            "name": "Liquid Courage - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Liquid Courage)}"
+        },
+        {
+            "name": "Liquid Courage - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Liquid Courage)}"
+        },
+        {
+            "name": "Lone Wolf - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Lone Wolf)}"
+        },
+        {
+            "name": "Lone Wolf - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Lone Wolf)}"
+        },
+        {
+            "name": "Lucky Dice - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Lucky Dice)}"
+        },
+        {
+            "name": "Lucky Dice - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Lucky Dice)}"
+        },
+        {
+            "name": "Switchblade - Level 2 - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Switchblade - Level 2)}"
+        },
+        {
+            "name": "Switchblade - Level 2 - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Switchblade - Level 2)}"
+        },
+        {
+            "name": "The Gold Pocket Watch - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(The Gold Pocket Watch)}"
+        },
+        {
+            "name": "The Gold Pocket Watch - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(The Gold Pocket Watch)}"
+        },
+        {
+            "name": "I m outta here! - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(I m outta here!)}"
+        },
+        {
+            "name": "I m outta here! - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(I m outta here!)}"
+        },
+        {
+            "name": "Ace in the Hole - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Ace in the Hole)}"
+        },
+        {
+            "name": "Contraband - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Contraband)}"
+        },
+        {
+            "name": "Contraband - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Contraband)}"
+        },
+        {
+            "name": "Think on Your Feet - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Think on Your Feet)}"
+        },
+        {
+            "name": "Think on Your Feet - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Think on Your Feet)}"
+        },
+        {
+            "name": "Double or Nothing - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Double or Nothing)}"
+        },
+        {
+            "name": "Opportunist - Level 2 - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Opportunist - Level 2)}"
+        },
+        {
+            "name": "Quick Thinking - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Quick Thinking)}"
+        },
+        {
+            "name": "Alyssa Graham - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Alyssa Graham)}"
+        },
+        {
+            "name": "Alyssa Graham - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Alyssa Graham)}"
+        },
+        {
+            "name": "Clarity of Mind - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Clarity of Mind)}"
+        },
+        {
+            "name": "Clarity of Mind - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Clarity of Mind)}"
+        },
+        {
+            "name": "Jewel of Aureolus - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Jewel of Aureolus)}"
+        },
+        {
+            "name": "Jewel of Aureolus - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Jewel of Aureolus)}"
+        },
+        {
+            "name": "Rite of Seeking - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Rite of Seeking)}"
+        },
+        {
+            "name": "Rite of Seeking - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Rite of Seeking)}"
+        },
+        {
+            "name": "Rite of Seeking - Level 4 - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Rite of Seeking - Level 4)}"
+        },
+        {
+            "name": "Rite of Seeking - Level 4 - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Rite of Seeking - Level 4)}"
+        },
+        {
+            "name": "Ritual Candles - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Ritual Candles)}"
+        },
+        {
+            "name": "Ritual Candles - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Ritual Candles)}"
+        },
+        {
+            "name": "Shriveling - Level 3 - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Shriveling - Level 3)}"
+        },
+        {
+            "name": "Shriveling - Level 3 - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Shriveling - Level 3)}"
+        },
+        {
+            "name": "Shriveling - Level 5 - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Shriveling - Level 5)}"
+        },
+        {
+            "name": "Shriveling - Level 5 - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Shriveling - Level 5)}"
+        },
+        {
+            "name": "Song of the Dead - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Song of the Dead)}"
+        },
+        {
+            "name": "Song of the Dead - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Song of the Dead)}"
+        },
+        {
+            "name": "Bind Monster - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Bind Monster)}"
+        },
+        {
+            "name": "Bind Monster - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Bind Monster)}"
+        },
+        {
+            "name": "Delve Too Deep - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Delve Too Deep)}"
+        },
+        {
+            "name": "Hypnotic Gaze - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Hypnotic Gaze)}"
+        },
+        {
+            "name": "Hypnotic Gaze - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Hypnotic Gaze)}"
+        },
+        {
+            "name": "Moonlight Ritual - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Moonlight Ritual)}"
+        },
+        {
+            "name": "Moonlight Ritual - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Moonlight Ritual)}"
+        },
+        {
+            "name": "Ward of Protection - Level 5 - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Ward of Protection - Level 5)}"
+        },
+        {
+            "name": "Ward of Protection - Level 5 - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Ward of Protection - Level 5)}"
+        },
+        {
+            "name": "Defiance - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Defiance)}"
+        },
+        {
+            "name": "Defiance - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Defiance)}"
+        },
+        {
+            "name": "Fearless - Level 2 - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Fearless - Level 2)}"
+        },
+        {
+            "name": "Fearless - Level 2 - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Fearless - Level 2)}"
+        },
+        {
+            "name": "Fine Clothes - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Fine Clothes)}"
+        },
+        {
+            "name": "Fine Clothes - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Fine Clothes)}"
+        },
+        {
+            "name": "Kukri - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Kukri)}"
+        },
+        {
+            "name": "Kukri - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Kukri)}"
+        },
+        {
+            "name": "Painkillers - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Painkillers)}"
+        },
+        {
+            "name": "Painkillers - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Painkillers)}"
+        },
+        {
+            "name": "Smoking Pipe - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Smoking Pipe)}"
+        },
+        {
+            "name": "Smoking Pipe - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Smoking Pipe)}"
+        },
+        {
+            "name": "The Red-Gloved Man - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(The Red-Gloved Man)}"
+        },
+        {
+            "name": "The Red-Gloved Man - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(The Red-Gloved Man)}"
+        },
+        {
+            "name": "Emergency Cache - Level 2 - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Emergency Cache - Level 2)}"
+        },
+        {
+            "name": "Moment of Respite - Played",
+            "category": ["Card Played"],
+            "requires": "{EligibleUnlockedInvestigatorCanPlay(Moment of Respite)}"
+        },
+        {
+            "name": "Moment of Respite - Committed",
+            "category": ["Card Committed"],
+            "requires": "{EligibleUnlockedInvestigatorCanCommit(Moment of Respite)}"
+        }
+    ]
+}

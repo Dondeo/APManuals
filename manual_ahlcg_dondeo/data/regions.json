@@ -1,33 +1,3 @@
 {
-    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
-    "The Gathering - Beginning": {
-        "connects_to": ["The Gathering - After Act 1"],
-        "starting": true
-    },
-    "The Gathering - After Act 1": {
-        "requires": "|Progressive History Unlock:1|",
-        "connects_to": ["The Gathering - After Act 2"]
-    },
-    "The Gathering - After Act 2": {
-        "requires": "|Progressive History Unlock:2|",
-        "connects_to": []
-    },
-    "The Midnight Masks": {
-        "requires": "|Progressive History Unlock:3|",
-        "connects_to": [],
-        "starting": true
-    },
-    "The Devourer Below - Beginning": {
-        "requires": "|Progressive History Unlock:4|",
-        "connects_to": ["The Devourer Below - After Act 1"],
-        "starting": true
-    },
-    "The Devourer Below - After Act 1": {
-        "requires": "|Progressive History Unlock:5|",
-        "connects_to": ["The Devourer Below - After Act 2"]
-    },
-    "The Devourer Below - After Act 2": {
-        "requires": "|Progressive History Unlock:6|",
-        "connects_to": []
-    }
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json"
 }

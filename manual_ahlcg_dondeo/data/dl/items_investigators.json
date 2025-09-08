@@ -1,0 +1,365 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+        {
+            "name": "Zoey Samaras",
+            "category": [
+                "Investigators",
+                "Guardian Level 0",
+                "Guardian Level 1",
+                "Guardian Level 2",
+                "Guardian Level 3",
+                "Guardian Level 4",
+                "Guardian Level 5",
+                "Neutral Level 0",
+                "Neutral Level 1",
+                "Neutral Level 2",
+                "Neutral Level 3",
+                "Neutral Level 4",
+                "Neutral Level 5",
+                "Other5 Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Jenny Barnes",
+            "category": [
+                "Investigators",
+                "Rogue Level 0",
+                "Rogue Level 1",
+                "Rogue Level 2",
+                "Rogue Level 3",
+                "Rogue Level 4",
+                "Rogue Level 5",
+                "Neutral Level 0",
+                "Neutral Level 1",
+                "Neutral Level 2",
+                "Neutral Level 3",
+                "Neutral Level 4",
+                "Neutral Level 5",
+                "Other5 Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Rex Murphy",
+            "category": [
+                "Investigators",
+                "Seeker Level 0",
+                "Seeker Level 1",
+                "Seeker Level 2",
+                "Seeker Level 3",
+                "Seeker Level 4",
+                "Seeker Level 5",
+                "Neutral Level 0",
+                "Neutral Level 1",
+                "Neutral Level 2",
+                "Neutral Level 3",
+                "Neutral Level 4",
+                "Neutral Level 5",
+                "Other5 Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Ashcan Pete",
+            "category": [
+                "Investigators",
+                "Survivor Level 0",
+                "Survivor Level 1",
+                "Survivor Level 2",
+                "Survivor Level 3",
+                "Survivor Level 4",
+                "Survivor Level 5",
+                "Neutral Level 0",
+                "Neutral Level 1",
+                "Neutral Level 2",
+                "Neutral Level 3",
+                "Neutral Level 4",
+                "Neutral Level 5",
+                "Other5 Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Jim Culver",
+            "category": [
+                "Investigators",
+                "Mystic Level 0",
+                "Mystic Level 1",
+                "Mystic Level 2",
+                "Mystic Level 3",
+                "Mystic Level 4",
+                "Mystic Level 5",
+                "Neutral Level 0",
+                "Neutral Level 1",
+                "Neutral Level 2",
+                "Neutral Level 3",
+                "Neutral Level 4",
+                "Neutral Level 5",
+                "Other5 Level 0"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Zoey Samaras can investigate",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Zoey Samaras can attack",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Zoey Samaras can evade",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Zoey Samaras can parley",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Zoey Samaras can move",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Zoey Samaras Hand Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "progression": true
+        },
+        {
+            "name": "Zoey Samaras Arcane Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "filler": true
+        },
+        {
+            "name": "Zoey Samaras Ally Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Zoey Samaras Body Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Zoey Samaras Accessory Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Jenny Barnes can investigate",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Jenny Barnes can attack",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Jenny Barnes can evade",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Jenny Barnes can parley",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Jenny Barnes can move",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Jenny Barnes Hand Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "progression": true
+        },
+        {
+            "name": "Jenny Barnes Arcane Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "filler": true
+        },
+        {
+            "name": "Jenny Barnes Ally Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Jenny Barnes Body Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Jenny Barnes Accessory Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Rex Murphy can investigate",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Rex Murphy can attack",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Rex Murphy can evade",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Rex Murphy can parley",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Rex Murphy can move",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Rex Murphy Hand Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "progression": true
+        },
+        {
+            "name": "Rex Murphy Arcane Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "progression": true
+        },
+        {
+            "name": "Rex Murphy Ally Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Rex Murphy Body Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Rex Murphy Accessory Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Ashcan Pete can investigate",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Ashcan Pete can attack",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Ashcan Pete can evade",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Ashcan Pete can parley",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Ashcan Pete can move",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Ashcan Pete Hand Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "progression": true
+        },
+        {
+            "name": "Ashcan Pete Arcane Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "filler": true
+        },
+        {
+            "name": "Ashcan Pete Ally Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Ashcan Pete Body Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Ashcan Pete Accessory Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Jim Culver can investigate",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Jim Culver can attack",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Jim Culver can evade",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Jim Culver can parley",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Jim Culver can move",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Jim Culver Hand Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "progression": true
+        },
+        {
+            "name": "Jim Culver Arcane Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "progression": true
+        },
+        {
+            "name": "Jim Culver Ally Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Jim Culver Body Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Jim Culver Accessory Slot",
+            "category": ["Slot"],
+            "progression": true
+        }
+    ]
+}

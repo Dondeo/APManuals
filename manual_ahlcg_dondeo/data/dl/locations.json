@@ -2,1625 +2,432 @@
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
     "data": [
         {
-            "name": "Study - Revealed",
+            "name": "Miskatonic Quad - Revealed",
             "category": [
+                "Dunwich Legacy",
                 "Location",
-                "The Gathering",
-                "The Gathering - Act 1"
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1"
             ],
-            "region": "The Gathering - Beginning"
+            "region": "Extracurricular Activity - Beginning"
         },
         {
-            "name": "Study - Investigated",
+            "name": "Miskatonic Quad - Investigated",
             "category": [
+                "Dunwich Legacy",
                 "Location",
-                "The Gathering",
-                "The Gathering - Act 1"
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
             ],
-            "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanInvestigate()}"
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
         },
         {
-            "name": "Trapped - Advanced",
+            "name": "Humanities Building - Revealed",
             "category": [
-                "Act",
-                "The Gathering",
-                "The Gathering - Act 1"
-            ],
-            "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanInvestigate()}"
-        },
-        {
-            "name": "Hallway - Revealed",
-            "category": [
+                "Dunwich Legacy",
                 "Location",
-                "The Gathering",
-                "The Gathering - Act 2"
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
             ],
-            "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanInvestigate()}"
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
-            "name": "Hallway - Investigated",
+            "name": "Humanities Building - Investigated",
             "category": [
+                "Dunwich Legacy",
                 "Location",
-                "The Gathering",
-                "The Gathering - Act 2",
-                "The Gathering - Act 3"
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
             ],
-            "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanInvestigate()}"
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
-            "name": "Attic - Revealed",
+            "name": "Orne Library - Revealed",
             "category": [
+                "Dunwich Legacy",
                 "Location",
-                "The Gathering",
-                "The Gathering - Act 2"
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
             ],
-            "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
-            "name": "Attic - Investigated",
+            "name": "Orne Library - Investigated",
             "category": [
+                "Dunwich Legacy",
                 "Location",
-                "The Gathering",
-                "The Gathering - Act 2"
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
             ],
-            "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
-            "name": "Attic - Victory Point",
+            "name": "Orne Library - Victory Point",
             "category": [
+                "Dunwich Legacy",
                 "Location",
-                "The Gathering",
-                "The Gathering - Act 2",
-                "The Gathering - Act 3"
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
             ],
-            "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
-            "name": "Cellar - Revealed",
+            "name": "Student Union - Revealed",
             "category": [
+                "Dunwich Legacy",
                 "Location",
-                "The Gathering",
-                "The Gathering - Act 2"
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
             ],
-            "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
-            "name": "Cellar - Investigated",
+            "name": "Student Union - Investigated",
             "category": [
+                "Dunwich Legacy",
                 "Location",
-                "The Gathering",
-                "The Gathering - Act 2"
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
             ],
-            "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
-            "name": "Cellar - Victory Point",
+            "name": "Administration Building - Revealed",
             "category": [
+                "Dunwich Legacy",
                 "Location",
-                "The Gathering",
-                "The Gathering - Act 2",
-                "The Gathering - Act 3"
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
             ],
-            "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
-            "name": "Flesh Eater - Victory Point",
+            "name": "Administration Building - Investigated",
             "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Science Building - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Science Building - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Yithian Observer (DL:S1A) - Victory Point",
+            "category": [
+                "Dunwich Legacy",
                 "Enemy",
-                "The Gathering",
-                "The Gathering - Act 2",
-                "The Gathering - Act 3"
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
             ],
-            "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanAttack()}"
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
         },
         {
-            "name": "Icy Ghoul - Victory Point",
+            "name": "Wizard of Yog-Sothoth (DL:S1A) - Victory Point",
             "category": [
+                "Dunwich Legacy",
                 "Enemy",
-                "The Gathering",
-                "The Gathering - Act 2",
-                "The Gathering - Act 3"
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
             ],
-            "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanAttack()}"
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
         },
         {
-            "name": "The Barrier - Advanced",
+            "name": "After Hours - Advanced",
             "category": [
+                "Dunwich Legacy",
                 "Act",
-                "The Gathering",
-                "The Gathering - Act 2"
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1"
             ],
-            "region": "The Gathering - After Act 1",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
+            "region": "Extracurricular Activity - Beginning"
         },
         {
-            "name": "Lita Chantler - Take Control",
+            "name": "Rice Whereabouts - Advanced",
             "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 2"
+            ],
+            "region": "Extracurricular Activity - After Act 1"
+        },
+        {
+            "name": "Dormitories - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Dormitories - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Dormitories - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Faculty Offices: The Night is Still Young - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Faculty Offices: The Night is Still Young - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Faculty Offices: The Hour is Late - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "requires": "|Progressive History Unlock:3| and ({AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)})"
+        },
+        {
+            "name": "Faculty Offices: The Hour is Late - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "requires": "|Progressive History Unlock:3| and ({AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)})"
+        },
+        {
+            "name": "Alchemy Labs - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Alchemy Labs - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "The Experiment - Victory Point 1",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+attack+investigate)}"
+        },
+        {
+            "name": "The Experiment - Victory Point 2",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+attack+investigate)}"
+        },
+        {
+            "name": "Campus Safety - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate+attack,move+parley)}"
+        },
+        {
+            "name": "Faculty Offices: The Night is Still Young - Resolution 1",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Dormitories - Resolution 2",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "The Beast Unleashed - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate+attack,move+parley)}"
+        },
+        {
+            "name": "The Beast Death - Resolution 3",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate+attack,move+parley)}"
+        },
+        {
+            "name": "Not fast enough - Resolution 4",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+attack)} or {AnyUnlockedInvestigatorWithActions(move+evade)}"
+        },
+        {
+            "name": "Extracurricular Activity - Finished",
+            "category": [
+                "Dunwich Legacy",
                 "Scenario",
-                "The Gathering",
-                "The Gathering - Act 3"
+                "Extracurricular Activity"
             ],
-            "region": "The Gathering - After Act 2",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()} and {AnyUnlockedInvestigatorCanAttackOrEvade()}"
-        },
-        {
-            "name": "Ghoul Priest - Victory Point 1",
-            "category": [
-                "Enemy",
-                "The Gathering",
-                "The Gathering - Act 3"
-            ],
-            "region": "The Gathering - After Act 2",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()} and {AnyUnlockedInvestigatorCanAttack()}"
-        },
-        {
-            "name": "Ghoul Priest - Victory Point 2",
-            "category": [
-                "Enemy",
-                "The Gathering",
-                "The Gathering - Act 3"
-            ],
-            "region": "The Gathering - After Act 2",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()} and {AnyUnlockedInvestigatorCanAttack()}"
-        },
-        {
-            "name": "What Have You Done? - Advanced",
-            "category": [
-                "Act",
-                "The Gathering",
-                "The Gathering - Act 3"
-            ],
-            "region": "The Gathering - After Act 2",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()} and {AnyUnlockedInvestigatorCanAttack()}"
-        },
-        {
-            "name": "Defending The Home - Resolution 1",
-            "category": [
-                "Resolution",
-                "The Gathering",
-                "The Gathering - Act 3"
-            ],
-            "region": "The Gathering - After Act 2",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()} and {AnyUnlockedInvestigatorCanAttack()}"
-        },
-        {
-            "name": "Defending The Home - Resolution 2",
-            "category": [
-                "Resolution",
-                "The Gathering",
-                "The Gathering - Act 3"
-            ],
-            "region": "The Gathering - After Act 2",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()} and {AnyUnlockedInvestigatorCanAttack()}"
-        },
-        {
-            "name": "They're Getting Out! - Resolution 3",
-            "category": [
-                "Resolution",
-                "The Gathering",
-                "The Gathering - Act 1",
-                "The Gathering - Act 2"
-            ],
-            "region": "The Gathering - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanAttack()} or {AnyUnlockedInvestigatorCanInvestigateAndEvade()}"
-        },
-        {
-            "name": "The Gathering - Finished",
-            "category": [
-                "Scenario",
-                "The Gathering"
-            ],
-            "region": "The Gathering - Beginning"
-        },
-        {
-            "name": "Your House - Revealed",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks"
-        },
-        {
-            "name": "Your House - Investigated",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanInvestigate()}"
-        },
-        {
-            "name": "Rivertown - Revealed",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMove()} or |The Gathering - Resolution 1 - Unlocked|"
-        },
-        {
-            "name": "Rivertown - Investigated",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()} or (|The Gathering - Resolution 1 - Unlocked| and {AnyUnlockedInvestigatorCanInvestigate()})"
-        },
-        {
-            "name": "Southside: Historical Society - Revealed",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
-        },
-        {
-            "name": "Southside: Historical Society - Investigated",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Southside: Ma's Boarding House - Revealed",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
-        },
-        {
-            "name": "Southside: Ma's Boarding House - Investigated",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "St. Mary's Hospital - Revealed",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
-        },
-        {
-            "name": "St. Mary's Hospital - Investigated",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Miskatonic University - Revealed",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
-        },
-        {
-            "name": "Miskatonic University - Investigated",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Miskatonic University - Victory Point",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Downtown: First Bank of Arkham - Revealed",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
-        },
-        {
-            "name": "Downtown: First Bank of Arkham - Investigated",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Downtown: Arkham Asylum - Revealed",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
-        },
-        {
-            "name": "Downtown: Arkham Asylum - Investigated",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Downtown: Arkham Asylum - Victory Point",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Easttown - Revealed",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
-        },
-        {
-            "name": "Easttown - Investigated",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Graveyard - Revealed",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
-        },
-        {
-            "name": "Graveyard - Investigated",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Graveyard - Victory Point",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Northside - Revealed",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
-        },
-        {
-            "name": "Northside - Investigated",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Northside - Victory Point",
-            "category": [
-                "Location",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Worlf-Man Drew - Victory Point",
-            "category": [
-                "Enemy",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()} and {AnyUnlockedInvestigatorCanMoveAndAttack()}"
-        },
-        {
-            "name": "Herman Collins - Victory Point",
-            "category": [
-                "Enemy",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()} and ({AnyUnlockedInvestigatorCanMoveAndParley()} or {AnyUnlockedInvestigatorCanMoveAndAttack()})"
-        },
-        {
-            "name": "Peter Warren - Victory Point",
-            "category": [
-                "Enemy",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()} and ({AnyUnlockedInvestigatorCanMoveAndParley()} or {AnyUnlockedInvestigatorCanMoveAndAttack()})"
-        },
-        {
-            "name": "Victoria Devereux - Victory Point",
-            "category": [
-                "Enemy",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()} and ({AnyUnlockedInvestigatorCanMoveAndParley()} or {AnyUnlockedInvestigatorCanMoveAndAttack()})"
-        },
-        {
-            "name": "Ruth Turner - Victory Point",
-            "category": [
-                "Enemy",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()} and ({AnyUnlockedInvestigatorCanMoveAndEvade()} or {AnyUnlockedInvestigatorCanMoveAndAttack()})"
-        },
-        {
-            "name": "The Masked Hunter - Victory Point 1",
-            "category": [
-                "Enemy",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanAttack()}"
-        },
-        {
-            "name": "The Masked Hunter - Victory Point 2",
-            "category": [
-                "Enemy",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanAttack()}"
-        },
-        {
-            "name": "Uncovering The Conspiracy - Advanced",
-            "category": [
-                "Act",
-                "The Midnight Masks",
-                "Hard Logic"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorIsPrepared()}"
-        },
-        {
-            "name": "Time Is Running Short - Resolution 2",
-            "category": [
-                "Resolution",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks",
-            "requires": "{AnyUnlockedInvestigatorCanAttackAndEvade()} or {AnyUnlockedInvestigatorCanMoveAndEvade()}"
-        },
-        {
-            "name": "The Midnight Masks - Finished",
-            "category": [
-                "Scenario",
-                "The Midnight Masks"
-            ],
-            "region": "The Midnight Masks"
-        },
-        {
-            "name": "Main Path - Revealed",
-            "category": [
-                "Location",
-                "The Devourer Below",
-                "The Devourer Below - Act 1"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": ""
-        },
-        {
-            "name": "Main Path - Investigated",
-            "category": [
-                "Location",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "The Devourer Below - Act 2",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanInvestigate()}"
-        },
-        {
-            "name": "Arkham Woods: Unhallowed Ground - Revealed",
-            "category": [
-                "Location",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "The Devourer Below - Act 2",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
-        },
-        {
-            "name": "Arkham Woods: Unhallowed Ground - Investigated",
-            "category": [
-                "Location",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "The Devourer Below - Act 2",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Arkham Woods: Twisted Path - Revealed",
-            "category": [
-                "Location",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "The Devourer Below - Act 2",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
-        },
-        {
-            "name": "Arkham Woods: Twisted Path - Investigated",
-            "category": [
-                "Location",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "The Devourer Below - Act 2",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Arkham Woods: Old House - Revealed",
-            "category": [
-                "Location",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "The Devourer Below - Act 2",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
-        },
-        {
-            "name": "Arkham Woods: Old House - Investigated",
-            "category": [
-                "Location",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "The Devourer Below - Act 2",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Arkham Woods: Cliffside - Revealed",
-            "category": [
-                "Location",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "The Devourer Below - Act 2",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
-        },
-        {
-            "name": "Arkham Woods: Cliffside - Investigated",
-            "category": [
-                "Location",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "The Devourer Below - Act 2",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Arkham Woods: Tangled Thicket - Revealed",
-            "category": [
-                "Location",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "The Devourer Below - Act 2",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
-        },
-        {
-            "name": "Arkham Woods: Tangled Thicket - Investigated",
-            "category": [
-                "Location",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "The Devourer Below - Act 2",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Arkham Woods: Quiet Glade - Revealed",
-            "category": [
-                "Location",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "The Devourer Below - Act 2",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
-        },
-        {
-            "name": "Arkham Woods: Quiet Glade - Investigated",
-            "category": [
-                "Location",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "The Devourer Below - Act 2",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Screeching Byakhee - Victory Point",
-            "category": [
-                "Enemy",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "The Devourer Below - Act 2",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanAttack()}"
-        },
-        {
-            "name": "Yithian Observer - Victory Point",
-            "category": [
-                "Enemy",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "The Devourer Below - Act 2",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanAttack()}"
-        },
-        {
-            "name": "Relentless Dark Young - Victory Point",
-            "category": [
-                "Enemy",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "The Devourer Below - Act 2",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanAttack()}"
-        },
-        {
-            "name": "Investigating The Trail - Advanced",
-            "category": [
-                "Act",
-                "The Devourer Below",
-                "The Devourer Below - Act 1"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Ritual Site - Revealed",
-            "category": [
-                "Location",
-                "The Devourer Below",
-                "The Devourer Below - Act 2"
-            ],
-            "region": "The Devourer Below - After Act 1",
-            "requires": "{AnyUnlockedInvestigatorCanMove()}"
-        },
-        {
-            "name": "Into The Darkness - Advanced",
-            "category": [
-                "Act",
-                "The Devourer Below",
-                "The Devourer Below - Act 2"
-            ],
-            "region": "The Devourer Below - After Act 1",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Ritual Site - Investigated",
-            "category": [
-                "Location",
-                "The Devourer Below",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - After Act 2",
-            "requires": "{AnyUnlockedInvestigatorCanMoveAndInvestigate()}"
-        },
-        {
-            "name": "Disrupting the Ritual - Advanced",
-            "category": [
-                "Act",
-                "The Devourer Below",
-                "The Devourer Below - Act 3",
-                "Hard Logic"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanPlayLita()} and {AnyUnlockedInvestigatorCanMoveAndAttack()} and {AnyUnlockedInvestigatorCanMoveAndEvade()}"
-        },
-        {
-            "name": "The Ritual Is Broken - Resolution 1",
-            "category": [
-                "Resolution",
-                "The Devourer Below",
-                "The Devourer Below - Act 3",
-                "Hard Logic"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanPlayLita()} and {AnyUnlockedInvestigatorCanMoveAndAttack()} and {AnyUnlockedInvestigatorCanMoveAndEvade()}"
-        },
-        {
-            "name": "The Devourer Below - Resolution 2",
-            "category": [
-                "Resolution",
-                "The Devourer Below",
-                "The Devourer Below - Act 1",
-                "Hard Logic"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanPlayLita()} and {AnyUnlockedInvestigatorCanMoveAndAttack()} and {AnyUnlockedInvestigatorCanMoveAndEvade()}"
-        },
-        {
-            "name": "Umôrdhoth - Resolution 3",
-            "category": [
-                "Resolution",
-                "The Devourer Below",
-                "The Devourer Below - Act 3"
-            ],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanPlayLita()} and {AnyUnlockedInvestigatorCanMoveAndAttack()} and {AnyUnlockedInvestigatorCanMoveAndEvade()}"
-        },
-        {
-            "name": "The Devourer Below - Finished",
-            "category": [
-                "Scenario",
-                "The Devourer Below"
-            ],
-            "region": "The Devourer Below - Beginning"
-        },
-        {
-            "name": "The Devourer Below - Win",
-            "category": ["Win Condition"],
-            "region": "The Devourer Below - Beginning",
-            "requires": "{AnyUnlockedInvestigatorCanPlayLita()} and {AnyUnlockedInvestigatorCanMoveAndAttack()} and {AnyUnlockedInvestigatorCanMoveAndEvade()}",
-            "victory": true
-        },
-        {
-            "name": "Roland .38 Special - Played",
-            "category": ["Card Played"],
-            "requires": "|Roland Banks| and |Roland Banks Hand Slot|"
-        },
-        {
-            "name": "Roland .38 Special - Committed",
-            "category": ["Card Committed"],
-            "requires": "|Roland Banks|"
-        },
-        {
-            "name": "Daisy Tote Bag - Played",
-            "category": ["Card Played"],
-            "requires": "|Daisy Walker|"
-        },
-        {
-            "name": "Daisy Tote Bag - Committed",
-            "category": ["Card Committed"],
-            "requires": "|Daisy Walker|"
-        },
-        {
-            "name": "On the Lam - Played",
-            "category": ["Card Played"],
-            "requires": "|Skids O Toole|"
-        },
-        {
-            "name": "On the Lam - Committed",
-            "category": ["Card Committed"],
-            "requires": "|Skids O Toole|"
-        },
-        {
-            "name": "Heirloom of Hyperborea - Played",
-            "category": ["Card Played"],
-            "requires": "|Agnes Baker| and |Agnes Baker Accessory Slot|"
-        },
-        {
-            "name": "Heirloom of Hyperborea - Committed",
-            "category": ["Card Committed"],
-            "requires": "|Agnes Baker|"
-        },
-        {
-            "name": "Wendy Amulet - Played",
-            "category": ["Card Played"],
-            "requires": "|Wendy Adams| and |Wendy Adams Accessory Slot|"
-        },
-        {
-            "name": "Wendy Amulet - Committed",
-            "category": ["Card Committed"],
-            "requires": "|Wendy Adams|"
-        },
-        {
-            "name": ".45 Automatic - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(.45 Automatic)}"
-        },
-        {
-            "name": ".45 Automatic - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(.45 Automatic)}"
-        },
-        {
-            "name": "Physical Training - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Physical Training)}"
-        },
-        {
-            "name": "Physical Training - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Physical Training)}"
-        },
-        {
-            "name": "Beat Cop - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Beat Cop)}"
-        },
-        {
-            "name": "Beat Cop - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Beat Cop)}"
-        },
-        {
-            "name": "First Aid - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(First Aid)}"
-        },
-        {
-            "name": "First Aid - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(First Aid)}"
-        },
-        {
-            "name": "Machete - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Machete)}"
-        },
-        {
-            "name": "Machete - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Machete)}"
-        },
-        {
-            "name": "Guard Dog - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Guard Dog)}"
-        },
-        {
-            "name": "Guard Dog - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Guard Dog)}"
-        },
-        {
-            "name": "Police Badge - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Police Badge)}"
-        },
-        {
-            "name": "Police Badge - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Police Badge)}"
-        },
-        {
-            "name": "Beat Cop - Level 2 - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Beat Cop - Level 2)}"
-        },
-        {
-            "name": "Beat Cop - Level 2 - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Beat Cop - Level 2)}"
-        },
-        {
-            "name": "Shotgun - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Shotgun)}"
-        },
-        {
-            "name": "Shotgun - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Shotgun)}"
-        },
-        {
-            "name": "Magnifying Glass - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Magnifying Glass)}"
-        },
-        {
-            "name": "Magnifying Glass - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Magnifying Glass)}"
-        },
-        {
-            "name": "Old Book Of Lore - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Old Book Of Lore)}"
-        },
-        {
-            "name": "Old Book Of Lore - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Old Book Of Lore)}"
-        },
-        {
-            "name": "Research Librarian - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Research Librarian)}"
-        },
-        {
-            "name": "Research Librarian - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Research Librarian)}"
-        },
-        {
-            "name": "Dr. Milan Christopher - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Dr. Milan Christopher)}"
-        },
-        {
-            "name": "Dr. Milan Christopher - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Dr. Milan Christopher)}"
-        },
-        {
-            "name": "Hyperawareness - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Hyperawareness)}"
-        },
-        {
-            "name": "Hyperawareness - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Hyperawareness)}"
-        },
-        {
-            "name": "Medical Texts - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Medical Texts)}"
-        },
-        {
-            "name": "Medical Texts - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Medical Texts)}"
-        },
-        {
-            "name": "Magnifying Glass - Level 1 - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Magnifying Glass - Level 1)}"
-        },
-        {
-            "name": "Magnifying Glass - Level 1 - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Magnifying Glass - Level 1)}"
-        },
-        {
-            "name": "Disc of Itzamna - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Disc of Itzamna)}"
-        },
-        {
-            "name": "Disc of Itzamna - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Disc of Itzamna)}"
-        },
-        {
-            "name": "Encyclopedia - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Encyclopedia)}"
-        },
-        {
-            "name": "Encyclopedia - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Encyclopedia)}"
-        },
-        {
-            "name": "Switchblade - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Switchblade)}"
-        },
-        {
-            "name": "Switchblade - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Switchblade)}"
-        },
-        {
-            "name": "Burglary - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Burglary)}"
-        },
-        {
-            "name": "Burglary - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Burglary)}"
-        },
-        {
-            "name": "Pickpocketing - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Pickpocketing)}"
-        },
-        {
-            "name": "Pickpocketing - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Pickpocketing)}"
-        },
-        {
-            "name": ".41 Derringer - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(.41 Derringer)}"
-        },
-        {
-            "name": ".41 Derringer - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(.41 Derringer)}"
-        },
-        {
-            "name": "Leo De Luca - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Leo De Luca)}"
-        },
-        {
-            "name": "Leo De Luca - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Leo De Luca)}"
-        },
-        {
-            "name": "Hard Knocks - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Hard Knocks)}"
-        },
-        {
-            "name": "Hard Knocks - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Hard Knocks)}"
-        },
-        {
-            "name": "Leo De Luca - Level 1 - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Leo De Luca - Level 1)}"
-        },
-        {
-            "name": "Leo De Luca - Level 1 - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Leo De Luca - Level 1)}"
-        },
-        {
-            "name": "Cat Burglar - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Cat Burglar)}"
-        },
-        {
-            "name": "Cat Burglar - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Cat Burglar)}"
-        },
-        {
-            "name": "Forbidden Knowledge - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Forbidden Knowledge)}"
-        },
-        {
-            "name": "Forbidden Knowledge - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Forbidden Knowledge)}"
-        },
-        {
-            "name": "Holy Rosary - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Holy Rosary)}"
-        },
-        {
-            "name": "Holy Rosary - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Holy Rosary)}"
-        },
-        {
-            "name": "Shriveling - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Shriveling)}"
-        },
-        {
-            "name": "Shriveling - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Shriveling)}"
-        },
-        {
-            "name": "Scrying - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Scrying)}"
-        },
-        {
-            "name": "Scrying - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Scrying)}"
-        },
-        {
-            "name": "Arcane Studies - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Arcane Studies)}"
-        },
-        {
-            "name": "Arcane Studies - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Arcane Studies)}"
-        },
-        {
-            "name": "Arcane Initiate - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Arcane Initiate)}"
-        },
-        {
-            "name": "Arcane Initiate - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Arcane Initiate)}"
-        },
-        {
-            "name": "Book Of Shadows - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Book Of Shadows)}"
-        },
-        {
-            "name": "Book Of Shadows - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Book Of Shadows)}"
-        },
-        {
-            "name": "Grotesque Statue - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Grotesque Statue)}"
-        },
-        {
-            "name": "Grotesque Statue - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Grotesque Statue)}"
-        },
-        {
-            "name": "Leather Coat - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Leather Coat)}"
-        },
-        {
-            "name": "Leather Coat - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Leather Coat)}"
-        },
-        {
-            "name": "Scavenging - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Scavenging)}"
-        },
-        {
-            "name": "Scavenging - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Scavenging)}"
-        },
-        {
-            "name": "Baseball Bat - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Baseball Bat)}"
-        },
-        {
-            "name": "Baseball Bat - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Baseball Bat)}"
-        },
-        {
-            "name": "Rabbit Foot - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Rabbit Foot)}"
-        },
-        {
-            "name": "Rabbit Foot - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Rabbit Foot)}"
-        },
-        {
-            "name": "Stray Cat - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Stray Cat)}"
-        },
-        {
-            "name": "Stray Cat - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Stray Cat)}"
-        },
-        {
-            "name": "Dig Deep - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Dig Deep)}"
-        },
-        {
-            "name": "Dig Deep - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Dig Deep)}"
-        },
-        {
-            "name": "Aquinnah - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Aquinnah)}"
-        },
-        {
-            "name": "Aquinnah - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Aquinnah)}"
-        },
-        {
-            "name": "Knife - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Knife)}"
-        },
-        {
-            "name": "Knife - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Knife)}"
-        },
-        {
-            "name": "Flashlight - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Flashlight)}"
-        },
-        {
-            "name": "Flashlight - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Flashlight)}"
-        },
-        {
-            "name": "Bulletproof Vest - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Bulletproof Vest)}"
-        },
-        {
-            "name": "Bulletproof Vest - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Bulletproof Vest)}"
-        },
-        {
-            "name": "Elder Sign Amulet - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Elder Sign Amulet)}"
-        },
-        {
-            "name": "Elder Sign Amulet - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Elder Sign Amulet)}"
-        },
-        {
-            "name": "Evidence! - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Evidence!)}"
-        },
-        {
-            "name": "Evidence! - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Evidence!)}"
-        },
-        {
-            "name": "Dodge - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Dodge)}"
-        },
-        {
-            "name": "Dodge - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Dodge)}"
-        },
-        {
-            "name": "Dynamite Blast - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Dynamite Blast)}"
-        },
-        {
-            "name": "Dynamite Blast - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Dynamite Blast)}"
-        },
-        {
-            "name": "Extra Ammunition - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Extra Ammunition)}"
-        },
-        {
-            "name": "Extra Ammunition - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Extra Ammunition)}"
-        },
-        {
-            "name": "Mind Over Matter - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Mind Over Matter)}"
-        },
-        {
-            "name": "Mind Over Matter - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Mind Over Matter)}"
-        },
-        {
-            "name": "Working a Hunch - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Working a Hunch)}"
-        },
-        {
-            "name": "Working a Hunch - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Working a Hunch)}"
-        },
-        {
-            "name": "Barricade - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Barricade)}"
-        },
-        {
-            "name": "Barricade - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Barricade)}"
-        },
-        {
-            "name": "Cryptic Research - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Cryptic Research)}"
-        },
-        {
-            "name": "Elusive - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Elusive)}"
-        },
-        {
-            "name": "Elusive - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Elusive)}"
-        },
-        {
-            "name": "Backstab - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Backstab)}"
-        },
-        {
-            "name": "Backstab - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Backstab)}"
-        },
-        {
-            "name": "Sneak Attack - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Sneak Attack)}"
-        },
-        {
-            "name": "Sneak Attack - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Sneak Attack)}"
-        },
-        {
-            "name": "Sure Gamble - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Sure Gamble)}"
-        },
-        {
-            "name": "Hot Streak - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Hot Streak)}"
-        },
-        {
-            "name": "Hot Streak - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Hot Streak)}"
-        },
-        {
-            "name": "Drawn to the Flame - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Drawn to the Flame)}"
-        },
-        {
-            "name": "Drawn to the Flame - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Drawn to the Flame)}"
-        },
-        {
-            "name": "Ward of Protection - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Ward of Protection)}"
-        },
-        {
-            "name": "Ward of Protection - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Ward of Protection)}"
-        },
-        {
-            "name": "Blinding Light - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Blinding Light)}"
-        },
-        {
-            "name": "Blinding Light - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Blinding Light)}"
-        },
-        {
-            "name": "Mind Wipe - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Mind Wipe)}"
-        },
-        {
-            "name": "Mind Wipe - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Mind Wipe)}"
-        },
-        {
-            "name": "Blinding Light - Level 2 - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Blinding Light - Level 2)}"
-        },
-        {
-            "name": "Blinding Light - Level 2 - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Blinding Light - Level 2)}"
-        },
-        {
-            "name": "Cunning Distraction - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Cunning Distraction)}"
-        },
-        {
-            "name": "Cunning Distraction - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Cunning Distraction)}"
-        },
-        {
-            "name": "Look what I found! - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Look what I found!)}"
-        },
-        {
-            "name": "Look what I found! - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Look what I found!)}"
-        },
-        {
-            "name": "Lucky! - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Lucky!)}"
-        },
-        {
-            "name": "Close Call - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Close Call)}"
-        },
-        {
-            "name": "Close Call - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Close Call)}"
-        },
-        {
-            "name": "Lucky! - Level 2 - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Lucky! - Level 2)}"
-        },
-        {
-            "name": "Will to Survive - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Will to Survive)}"
-        },
-        {
-            "name": "Will to Survive - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Will to Survive)}"
-        },
-        {
-            "name": "Emergency Cache - Played",
-            "category": ["Card Played"],
-            "requires": "{EligibleUnlockedInvestigatorCanPlay(Emergency Cache)}"
-        },
-        {
-            "name": "Vicious Blow - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Vicious Blow)}"
-        },
-        {
-            "name": "Deduction - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Deduction)}"
-        },
-        {
-            "name": "Opportunist - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Opportunist)}"
-        },
-        {
-            "name": "Fearless - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Fearless)}"
-        },
-        {
-            "name": "Survival Instinct - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Survival Instinct)}"
-        },
-        {
-            "name": "Guts - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Guts)}"
-        },
-        {
-            "name": "Perception - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Perception)}"
-        },
-        {
-            "name": "Overpower - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Overpower)}"
-        },
-        {
-            "name": "Manual Dexterity - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Manual Dexterity)}"
-        },
-        {
-            "name": "Unexpected Courage - Committed",
-            "category": ["Card Committed"],
-            "requires": "{EligibleUnlockedInvestigatorCanCommit(Unexpected Courage)}"
+            "region": "Extracurricular Activity - Beginning"
         }
     ]
 }

@@ -1,0 +1,375 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+        {
+            "name": "Roland Banks",
+            "category": [
+                "Investigators",
+                "Guardian Level 0",
+                "Guardian Level 1",
+                "Guardian Level 2",
+                "Guardian Level 3",
+                "Guardian Level 4",
+                "Guardian Level 5",
+                "Seeker Level 0",
+                "Seeker Level 1",
+                "Seeker Level 2",
+                "Neutral Level 0",
+                "Neutral Level 1",
+                "Neutral Level 2",
+                "Neutral Level 3",
+                "Neutral Level 4",
+                "Neutral Level 5"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Skids O Toole",
+            "category": [
+                "Investigators",
+                "Rogue Level 0",
+                "Rogue Level 1",
+                "Rogue Level 2",
+                "Rogue Level 3",
+                "Rogue Level 4",
+                "Rogue Level 5",
+                "Guardian Level 0",
+                "Guardian Level 1",
+                "Guardian Level 2",
+                "Neutral Level 0",
+                "Neutral Level 1",
+                "Neutral Level 2",
+                "Neutral Level 3",
+                "Neutral Level 4",
+                "Neutral Level 5"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Daisy Walker",
+            "category": [
+                "Investigators",
+                "Seeker Level 0",
+                "Seeker Level 1",
+                "Seeker Level 2",
+                "Seeker Level 3",
+                "Seeker Level 4",
+                "Seeker Level 5",
+                "Mystic Level 0",
+                "Mystic Level 1",
+                "Mystic Level 2",
+                "Neutral Level 0",
+                "Neutral Level 1",
+                "Neutral Level 2",
+                "Neutral Level 3",
+                "Neutral Level 4",
+                "Neutral Level 5"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Wendy Adams",
+            "category": [
+                "Investigators",
+                "Survivor Level 0",
+                "Survivor Level 1",
+                "Survivor Level 2",
+                "Survivor Level 3",
+                "Survivor Level 4",
+                "Survivor Level 5",
+                "Rogue Level 0",
+                "Rogue Level 1",
+                "Rogue Level 2",
+                "Neutral Level 0",
+                "Neutral Level 1",
+                "Neutral Level 2",
+                "Neutral Level 3",
+                "Neutral Level 4",
+                "Neutral Level 5"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Agnes Baker",
+            "category": [
+                "Investigators",
+                "Mystic Level 0",
+                "Mystic Level 1",
+                "Mystic Level 2",
+                "Mystic Level 3",
+                "Mystic Level 4",
+                "Mystic Level 5",
+                "Survivor Level 0",
+                "Survivor Level 1",
+                "Survivor Level 2",
+                "Neutral Level 0",
+                "Neutral Level 1",
+                "Neutral Level 2",
+                "Neutral Level 3",
+                "Neutral Level 4",
+                "Neutral Level 5"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Roland Banks can investigate",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Roland Banks can attack",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Roland Banks can evade",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Roland Banks can parley",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Roland Banks can move",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Roland Banks Hand Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "progression": true
+        },
+        {
+            "name": "Roland Banks Arcane Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "filler": true
+        },
+        {
+            "name": "Roland Banks Ally Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Roland Banks Body Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Roland Banks Accessory Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Skids O Toole can investigate",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Skids O Toole can attack",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Skids O Toole can evade",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Skids O Toole can parley",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Skids O Toole can move",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Skids O Toole Hand Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "progression": true
+        },
+        {
+            "name": "Skids O Toole Arcane Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "filler": true
+        },
+        {
+            "name": "Skids O Toole Ally Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Skids O Toole Body Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Skids O Toole Accessory Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Daisy Walker can investigate",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Daisy Walker can attack",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Daisy Walker can evade",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Daisy Walker can parley",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Daisy Walker can move",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Daisy Walker Hand Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "progression": true
+        },
+        {
+            "name": "Daisy Walker Arcane Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "progression": true
+        },
+        {
+            "name": "Daisy Walker Ally Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Daisy Walker Body Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Daisy Walker Accessory Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Wendy Adams can investigate",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Wendy Adams can attack",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Wendy Adams can evade",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Wendy Adams can parley",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Wendy Adams can move",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Wendy Adams Hand Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "progression": true
+        },
+        {
+            "name": "Wendy Adams Arcane Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "filler": true
+        },
+        {
+            "name": "Wendy Adams Ally Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Wendy Adams Body Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Wendy Adams Accessory Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Agnes Baker can investigate",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Agnes Baker can attack",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Agnes Baker can evade",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Agnes Baker can parley",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Agnes Baker can move",
+            "category": ["Actions"],
+            "progression": true
+        },
+        {
+            "name": "Agnes Baker Hand Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "progression": true
+        },
+        {
+            "name": "Agnes Baker Arcane Slot",
+            "category": ["Slot"],
+            "count": 2,
+            "progression": true
+        },
+        {
+            "name": "Agnes Baker Ally Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Agnes Baker Body Slot",
+            "category": ["Slot"],
+            "progression": true
+        },
+        {
+            "name": "Agnes Baker Accessory Slot",
+            "category": ["Slot"],
+            "progression": true
+        }
+    ]
+}

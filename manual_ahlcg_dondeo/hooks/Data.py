@@ -1,9 +1,17 @@
+from ..Helpers import load_data_file
+
 # called after the game.json file has been loaded
 def after_load_game_file(game_table: dict) -> dict:
     return game_table
 # called after the items.json file has been loaded, before any item loading or processing has occurred
 # if you need access to the items after processing to add ids, etc., you should use the hooks in World.py
 def after_load_item_file(item_table: list) -> list:
+    item_table.extend(load_data_file("core", "items.json")["data"])
+    item_table.extend(load_data_file("core", "items_cards.json")["data"])
+    item_table.extend(load_data_file("core", "items_investigators.json")["data"])
+    item_table.extend(load_data_file("dl", "items.json")["data"])
+    item_table.extend(load_data_file("dl", "items_cards.json")["data"])
+    item_table.extend(load_data_file("dl", "items_investigators.json")["data"])
     return item_table
 
 # NOTE: Progressive items are not currently supported in Manual. Once they are,
@@ -14,6 +22,12 @@ def after_load_progressive_item_file(progressive_item_table: list) -> list:
 # called after the locations.json file has been loaded, before any location loading or processing has occurred
 # if you need access to the locations after processing to add ids, etc., you should use the hooks in World.py
 def after_load_location_file(location_table: list) -> list:
+    location_table.extend(load_data_file("core", "locations.json")["data"])
+    location_table.extend(load_data_file("core", "locations_cards.json")["data"])
+    location_table.extend(load_data_file("core", "locations_investigators.json")["data"])
+    location_table.extend(load_data_file("dl", "locations.json")["data"])
+    location_table.extend(load_data_file("dl", "locations_cards.json")["data"])
+    location_table.extend(load_data_file("dl", "locations_investigators.json")["data"])
     return location_table
 
 # called after the locations.json file has been loaded, before any location loading or processing has occurred
