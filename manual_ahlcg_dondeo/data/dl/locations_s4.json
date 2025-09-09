@@ -1,0 +1,281 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Village Commons - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "Village Commons - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1",
+                "Blood On The Altar - Act 2"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "Bishop Brook (any) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "Bishop Brook (any) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1",
+                "Blood On The Altar - Act 2"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "Burned Ruins (any) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "Burned Ruins (any) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1",
+                "Blood On The Altar - Act 2"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "Osborn General Store (any) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "Osborn General Store (any) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1",
+                "Blood On The Altar - Act 2"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "Congregational Church (any) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "Congregational Church (any) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1",
+                "Blood On The Altar - Act 2"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "House in the Reeds (any) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "House in the Reeds (any) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1",
+                "Blood On The Altar - Act 2"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "Schoolhouse (any) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "Schoolhouse (any) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1",
+                "Blood On The Altar - Act 2"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "Key to the Chamber - Take Control",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "The Hidden Chamber - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "Searching for Answers - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 1"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "The Hidden Chamber - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 2"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "The Hidden Chamber - Victory Point 1",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 2"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "The Hidden Chamber - Victory Point 2",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 2"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "Silas Bishop - Victory Point 1",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 2"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "Silas Bishop - Victory Point 2",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 2"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        },
+        {
+            "name": "The Chamber of the Beast - Resolution 1",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 2"
+            ],
+            "region": "Blood On The Altar - After Act 1"
+        },
+        {
+            "name": "The Chamber of the Beast - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 2"
+            ],
+            "region": "Blood On The Altar - After Act 1"
+        },
+        {
+            "name": "Banishing the Creature - Resolution 2",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 2"
+            ],
+            "region": "Blood On The Altar - After Act 1"
+        },
+        {
+            "name": "Banishing the Creature - Resolution 3",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "Blood On The Altar",
+                "Blood On The Altar - Act 2"
+            ],
+            "region": "Blood On The Altar - After Act 1"
+        },
+        {
+            "name": "Blood On The Altar - Finished",
+            "category": [
+                "Dunwich Legacy",
+                "Scenario",
+                "Blood On The Altar"
+            ],
+            "region": "Blood On The Altar - Beginning"
+        }
+    ]
+}

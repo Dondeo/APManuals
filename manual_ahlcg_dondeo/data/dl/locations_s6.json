@@ -1,0 +1,352 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Base of the Hill - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 1"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Base of the Hill - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 1"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Slaughtered Woods - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 1",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Slaughtered Woods - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 1",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Eerie Glade - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 1",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Eerie Glade - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 1",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Destroyed Path - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 1",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Destroyed Path - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 1",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Frozen Spring - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 1",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Frozen Spring - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 1",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Ascending Path - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 1"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Crazed Shoggoth - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 1",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Wizard of Yog-Sothoth (DL:S6)- Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 1",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "The Path to the Hill - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 1"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Ascending Path - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 2"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Dimensional Gap - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Dimensional Gap - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "A Tear in the Path - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "A Tear in the Path - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Uprooted Woods - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Uprooted Woods - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Lost Memories - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Lost Memories - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 2",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Sentinel Peak - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 2"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        },
+        {
+            "name": "Ascending the Hill (any) - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 2"
+            ],
+            "region": "Where Doom Awaits - After Act 1"
+        },
+        {
+            "name": "Sentinel Peak - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - After Act 1"
+        },
+        {
+            "name": "Sentinel Peak - Victory Point 1",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - After Act 1"
+        },
+        {
+            "name": "Sentinel Peak - Victory Point 2",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - After Act 1"
+        },
+        {
+            "name": "Seth Bishop - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - After Act 1"
+        },
+        {
+            "name": "The Gate Opens - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - After Act 2"
+        },
+        {
+            "name": "Peer Into the Abyss - Resolution 1",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "Where Doom Awaits",
+                "Where Doom Awaits - Act 3"
+            ],
+            "region": "Where Doom Awaits - After Act 2"
+        },
+        {
+            "name": "Where Doom Awaits - Finished",
+            "category": [
+                "Dunwich Legacy",
+                "Scenario",
+                "Where Doom Awaits"
+            ],
+            "region": "Where Doom Awaits - Beginning"
+        }
+    ]
+}

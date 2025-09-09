@@ -1,0 +1,250 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Study - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Gathering",
+                "The Gathering - Act 1"
+            ],
+            "region": "The Gathering - Beginning"
+        },
+        {
+            "name": "Study - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Gathering",
+                "The Gathering - Act 1"
+            ],
+            "region": "The Gathering - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
+        },
+        {
+            "name": "Trapped - Advanced",
+            "category": [
+                "Night of Zealot",
+                "Act",
+                "The Gathering",
+                "The Gathering - Act 1"
+            ],
+            "region": "The Gathering - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
+        },
+        {
+            "name": "Hallway - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Gathering",
+                "The Gathering - Act 2"
+            ],
+            "region": "The Gathering - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
+        },
+        {
+            "name": "Hallway - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Gathering",
+                "The Gathering - Act 2",
+                "The Gathering - Act 3"
+            ],
+            "region": "The Gathering - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
+        },
+        {
+            "name": "Attic - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Gathering",
+                "The Gathering - Act 2"
+            ],
+            "region": "The Gathering - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)} or {TwoUnlockedInvestigatorsWithActions(move,investigate)}"
+        },
+        {
+            "name": "Attic - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Gathering",
+                "The Gathering - Act 2"
+            ],
+            "region": "The Gathering - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Attic - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Gathering",
+                "The Gathering - Act 2",
+                "The Gathering - Act 3"
+            ],
+            "region": "The Gathering - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Cellar - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Gathering",
+                "The Gathering - Act 2"
+            ],
+            "region": "The Gathering - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)} or {TwoUnlockedInvestigatorsWithActions(move,investigate)}"
+        },
+        {
+            "name": "Cellar - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Gathering",
+                "The Gathering - Act 2"
+            ],
+            "region": "The Gathering - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Cellar - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Gathering",
+                "The Gathering - Act 2",
+                "The Gathering - Act 3"
+            ],
+            "region": "The Gathering - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Flesh Eater - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Gathering",
+                "The Gathering - Act 2",
+                "The Gathering - Act 3"
+            ],
+            "region": "The Gathering - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack+investigate)} or {TwoUnlockedInvestigatorsWithActions(attack,investigate)}"
+        },
+        {
+            "name": "Icy Ghoul - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Gathering",
+                "The Gathering - Act 2",
+                "The Gathering - Act 3"
+            ],
+            "region": "The Gathering - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack+investigate)} or {TwoUnlockedInvestigatorsWithActions(attack,investigate)}"
+        },
+        {
+            "name": "The Barrier - Advanced",
+            "category": [
+                "Night of Zealot",
+                "Act",
+                "The Gathering",
+                "The Gathering - Act 2"
+            ],
+            "region": "The Gathering - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Lita Chantler - Take Control",
+            "category": [
+                "Night of Zealot",
+                "Scenario",
+                "The Gathering",
+                "The Gathering - Act 3"
+            ],
+            "region": "The Gathering - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,evade)}"
+        },
+        {
+            "name": "Ghoul Priest (NoZ:S1) - Victory Point 1",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Gathering",
+                "The Gathering - Act 3"
+            ],
+            "region": "The Gathering - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,attack)}"
+        },
+        {
+            "name": "Ghoul Priest (NoZ:S1) - Victory Point 2",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Gathering",
+                "The Gathering - Act 3"
+            ],
+            "region": "The Gathering - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,attack)}"
+        },
+        {
+            "name": "What Have You Done? - Advanced",
+            "category": [
+                "Night of Zealot",
+                "Act",
+                "The Gathering",
+                "The Gathering - Act 3"
+            ],
+            "region": "The Gathering - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,attack)}"
+        },
+        {
+            "name": "Defending The Home - Resolution 1",
+            "category": [
+                "Night of Zealot",
+                "Resolution",
+                "The Gathering",
+                "The Gathering - Act 3"
+            ],
+            "region": "The Gathering - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,attack)}"
+        },
+        {
+            "name": "Defending The Home - Resolution 2",
+            "category": [
+                "Night of Zealot",
+                "Resolution",
+                "The Gathering",
+                "The Gathering - Act 3"
+            ],
+            "region": "The Gathering - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,attack)}"
+        },
+        {
+            "name": "They're Getting Out! - Resolution 3",
+            "category": [
+                "Night of Zealot",
+                "Resolution",
+                "The Gathering",
+                "The Gathering - Act 1",
+                "The Gathering - Act 2"
+            ],
+            "region": "The Gathering - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)} or {AnyUnlockedInvestigatorWithActions(investigate+evade)}"
+        },
+        {
+            "name": "The Gathering - Finished",
+            "category": [
+                "Night of Zealot",
+                "Scenario",
+                "The Gathering"
+            ],
+            "region": "The Gathering - Beginning"
+        }
+    ]
+}

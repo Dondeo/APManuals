@@ -1,0 +1,180 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Dunwich Village (any) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Undimensioned and Unseen",
+                "Undimensioned and Unseen - Act 1"
+            ],
+            "region": "Undimensioned and Unseen - Beginning"
+        },
+        {
+            "name": "Dunwich Village (any) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Undimensioned and Unseen",
+                "Undimensioned and Unseen - Act 1",
+                "Undimensioned and Unseen - Act 2"
+            ],
+            "region": "Undimensioned and Unseen - Beginning"
+        },
+        {
+            "name": "Cold Spring Glen (any) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Undimensioned and Unseen",
+                "Undimensioned and Unseen - Act 1"
+            ],
+            "region": "Undimensioned and Unseen - Beginning"
+        },
+        {
+            "name": "Cold Spring Glen (any) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Undimensioned and Unseen",
+                "Undimensioned and Unseen - Act 1",
+                "Undimensioned and Unseen - Act 2"
+            ],
+            "region": "Undimensioned and Unseen - Beginning"
+        },
+        {
+            "name": "Ten-Acre Meadow (any) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Undimensioned and Unseen",
+                "Undimensioned and Unseen - Act 1"
+            ],
+            "region": "Undimensioned and Unseen - Beginning"
+        },
+        {
+            "name": "Ten-Acre Meadow (any) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Undimensioned and Unseen",
+                "Undimensioned and Unseen - Act 1",
+                "Undimensioned and Unseen - Act 2"
+            ],
+            "region": "Undimensioned and Unseen - Beginning"
+        },
+        {
+            "name": "Blasted Heath (any) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Undimensioned and Unseen",
+                "Undimensioned and Unseen - Act 1"
+            ],
+            "region": "Undimensioned and Unseen - Beginning"
+        },
+        {
+            "name": "Blasted Heath (any) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Undimensioned and Unseen",
+                "Undimensioned and Unseen - Act 1",
+                "Undimensioned and Unseen - Act 2"
+            ],
+            "region": "Undimensioned and Unseen - Beginning"
+        },
+        {
+            "name": "Whateley Ruins (any) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Undimensioned and Unseen",
+                "Undimensioned and Unseen - Act 1"
+            ],
+            "region": "Undimensioned and Unseen - Beginning"
+        },
+        {
+            "name": "Whateley Ruins (any) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Undimensioned and Unseen",
+                "Undimensioned and Unseen - Act 1",
+                "Undimensioned and Unseen - Act 2"
+            ],
+            "region": "Undimensioned and Unseen - Beginning"
+        },
+        {
+            "name": "Devil Hop Yard (any) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Undimensioned and Unseen",
+                "Undimensioned and Unseen - Act 1"
+            ],
+            "region": "Undimensioned and Unseen - Beginning"
+        },
+        {
+            "name": "Devil Hop Yard (any) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Undimensioned and Unseen",
+                "Undimensioned and Unseen - Act 1",
+                "Undimensioned and Unseen - Act 2"
+            ],
+            "region": "Undimensioned and Unseen - Beginning"
+        },
+        {
+            "name": "Saracenix Script - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Undimensioned and Unseen",
+                "Undimensioned and Unseen - Act 1"
+            ],
+            "region": "Undimensioned and Unseen - Beginning"
+        },
+        {
+            "name": "Brood of Yog-Sothoth - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "Undimensioned and Unseen",
+                "Undimensioned and Unseen - Act 2"
+            ],
+            "region": "Undimensioned and Unseen - Beginning"
+        },
+        {
+            "name": "They Must Be Destroyed! - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Undimensioned and Unseen",
+                "Undimensioned and Unseen - Act 2"
+            ],
+            "region": "Undimensioned and Unseen - After Act 1"
+        },
+        {
+            "name": "The Brood is Ended - Resolution 2",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "Undimensioned and Unseen",
+                "Undimensioned and Unseen - Act 2"
+            ],
+            "region": "Undimensioned and Unseen - After Act 1"
+        },
+        {
+            "name": "Undimensioned and Unseen - Finished",
+            "category": [
+                "Dunwich Legacy",
+                "Scenario",
+                "Undimensioned and Unseen"
+            ],
+            "region": "Undimensioned and Unseen - Beginning"
+        }
+    ]
+}

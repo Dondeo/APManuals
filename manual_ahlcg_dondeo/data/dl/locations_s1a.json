@@ -1,0 +1,443 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Miskatonic Quad - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1"
+            ],
+            "region": "Extracurricular Activity - Beginning"
+        },
+        {
+            "name": "Miskatonic Quad - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
+        },
+        {
+            "name": "Humanities Building - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Humanities Building - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Orne Library - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Orne Library - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Orne Library - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Student Union - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Student Union - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Administration Building - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Administration Building - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Science Building - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Science Building - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Yithian Observer (DL:S1A) - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "Wizard of Yog-Sothoth (DL:S1A) - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "After Hours - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1"
+            ],
+            "region": "Extracurricular Activity - Beginning"
+        },
+        {
+            "name": "Jazz Mulligan - Take Control",
+            "category": [
+                "Dunwich Legacy",
+                "Scenario",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 2"
+            ],
+            "region": "Extracurricular Activity - Beginning"
+        },
+        {
+            "name": "Rice Whereabouts - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 2"
+            ],
+            "region": "Extracurricular Activity - After Act 1"
+        },
+        {
+            "name": "Dormitories - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Dormitories - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Dormitories - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Faculty Offices: The Night is Still Young - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Faculty Offices: The Night is Still Young - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Faculty Offices: The Hour is Late - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "requires": "|Progressive History Unlock:3| and ({AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)})"
+        },
+        {
+            "name": "Faculty Offices: The Hour is Late - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "requires": "|Progressive History Unlock:3| and ({AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)})"
+        },
+        {
+            "name": "Alchemy Labs - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Alchemy Labs - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+
+            ],
+            "region": "Extracurricular Activity - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "The Experiment - Victory Point 1",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+attack+investigate)}"
+        },
+        {
+            "name": "The Experiment - Victory Point 2",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+attack+investigate)}"
+        },
+        {
+            "name": "Campus Safety - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate+attack,move+parley)}"
+        },
+        {
+            "name": "Faculty Offices: The Night is Still Young - Resolution 1",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Dormitories - Resolution 2",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "The Beast Unleashed - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate+attack,move+parley)}"
+        },
+        {
+            "name": "The Beast Death - Resolution 3",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate+attack,move+parley)}"
+        },
+        {
+            "name": "Not fast enough - Resolution 4",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 1",
+                "Extracurricular Activity - Act 2",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+attack)} or {AnyUnlockedInvestigatorWithActions(move+evade)}"
+        },
+        {
+            "name": "Extracurricular Activity - Finished",
+            "category": [
+                "Dunwich Legacy",
+                "Scenario",
+                "Extracurricular Activity"
+            ],
+            "region": "Extracurricular Activity - Beginning"
+        }
+    ]
+}

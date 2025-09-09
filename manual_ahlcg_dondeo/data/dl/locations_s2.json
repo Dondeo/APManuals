@@ -1,0 +1,365 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Museum Entrance - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 1"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Museum Entrance - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 1",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Finding a Way Inside - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 1"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Adam Lynch - Take Control",
+            "category": [
+                "Dunwich Legacy",
+                "Scenario",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 1"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Museum Halls - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 1"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Museum Halls - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Security Office (any) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Security Office (any) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Administration Office (any) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Administration Office (any) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Exhibit Hall: Athabaskan Exhibit - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Exhibit Hall: Athabaskan Exhibit - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Exhibit Hall: Medusa Exhibit - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Exhibit Hall: Medusa Exhibit - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Exhibit Hall: Medusa Exhibit - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Exhibit Hall: Nature Exhibit - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Exhibit Hall: Nature Exhibit - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Exhibit Hall: Nature Exhibit - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Exhibit Hall: Egyptian Exhibit - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Exhibit Hall: Egyptian Exhibit - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Exhibit Hall: Egyptian Exhibit - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Exhibit Hall: Hall of the Dead - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Exhibit Hall: Hall of the Dead - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Exhibit Hall: Hall of the Dead - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Exhibit Hall: Restricted Hall - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        },
+        {
+            "name": "Night at the Museum - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2"
+            ],
+            "region": "The Miskatonic Museum - After Act 1"
+        },
+        {
+            "name": "Breaking and Entering - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2"
+            ],
+            "region": "The Miskatonic Museum - After Act 1"
+        },
+        {
+            "name": "Harold Walsted - Take Control",
+            "category": [
+                "Dunwich Legacy",
+                "Scenario",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 2"
+            ],
+            "region": "The Miskatonic Museum - After Act 1"
+        },
+        {
+            "name": "Exhibit Hall: Restricted Hall - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - After Act 1"
+        },
+        {
+            "name": "Exhibit Hall: Restricted Hall - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - After Act 1"
+        },
+        {
+            "name": "Searching for the Tome - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - After Act 2"
+        },
+        {
+            "name": "The Necronomicon - Resolution 1",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - After Act 2"
+        },
+        {
+            "name": "The Necronomicon - Resolution 2",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "The Miskatonic Museum",
+                "The Miskatonic Museum - Act 3"
+            ],
+            "region": "The Miskatonic Museum - After Act 2"
+        },
+        {
+            "name": "The Miskatonic Museum - Finished",
+            "category": [
+                "Dunwich Legacy",
+                "Scenario",
+                "The Miskatonic Museum"
+            ],
+            "region": "The Miskatonic Museum - Beginning"
+        }
+    ]
+}

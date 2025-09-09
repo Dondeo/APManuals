@@ -1,0 +1,372 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "La Bella Luna - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 1",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning"
+        },
+        {
+            "name": "La Bella Luna - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 1",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
+        },
+        {
+            "name": "Clover Club Lounge - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 1",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning"
+        },
+        {
+            "name": "Clover Club Lounge - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 1",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(evade+investigate)} or {AnyUnlockedInvestigatorWithActions(move+investigate)} or {AnyUnlockedInvestigatorWithActions(fight+investigate)}"
+        },
+        {
+            "name": "Clover Club Bar - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 1",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Clover Club Bar - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 1",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Clover Club Cardroom - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 1",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Clover Club Cardroom - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 1",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Clover Club Pit Boss - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "The House Always Wins",
+                "The House Always Wins - Act 1",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "Servant of the Lurker (DL:S1B) - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "The House Always Wins",
+                "The House Always Wins - Act 1",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "Beginner Luck - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "The House Always Wins",
+                "The House Always Wins - Act 1"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Darkened Hall - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Darkened Hall - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Art Gallery - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Art Gallery - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Art Gallery - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "VIP Area - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "VIP Area - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "VIP Area - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Back Alley - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Back Alley - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The House Always Wins",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Skin Game - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "The House Always Wins",
+                "The House Always Wins - Act 2"
+            ],
+            "region": "The House Always Wins - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Dr. Francis Morgan - Take Control",
+            "category": [
+                "Dunwich Legacy",
+                "Scenario",
+                "The House Always Wins",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Peter Clover - Take Control",
+            "category": [
+                "Dunwich Legacy",
+                "Scenario",
+                "The House Always Wins",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "All In - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "The House Always Wins",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - After Act 2"
+        },
+        {
+            "name": "Fold - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "The House Always Wins",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - After Act 2"
+        },
+        {
+            "name": "Safe... For Now, Escaping The Club - Resolution 1",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "The House Always Wins",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Safe... For Now - Resolution 2",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "The House Always Wins",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Escaping the Club - Resolution 3",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "The House Always Wins",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "The Building Collapses - Resolution 4",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "The House Always Wins",
+                "The House Always Wins - Act 1",
+                "The House Always Wins - Act 2",
+                "The House Always Wins - Act 3"
+            ],
+            "region": "The House Always Wins - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(fight)} or {AnyUnlockedInvestigatorWithActions(evade)}"
+        },
+        {
+            "name": "The House Always Wins - Finished",
+            "category": [
+                "Dunwich Legacy",
+                "Scenario",
+                "The House Always Wins"
+            ],
+            "region": "The House Always Wins - Beginning"
+        }
+    ]
+}

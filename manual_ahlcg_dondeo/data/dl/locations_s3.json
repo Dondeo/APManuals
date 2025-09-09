@@ -1,0 +1,263 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Passenger Car (Agility) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Passenger Car (Agility) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1",
+                "The Essex County Express - Act 2"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Passenger Car (Strength) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Passenger Car (Strength) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1",
+                "The Essex County Express - Act 2"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Passenger Car (Willpower) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Passenger Car (Willpower) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1",
+                "The Essex County Express - Act 2"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Passenger Car (Knowledge) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Passenger Car (Knowledge) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1",
+                "The Essex County Express - Act 2"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Passenger Car (Wild) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Passenger Car (Wild) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1",
+                "The Essex County Express - Act 2"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Sleeping Car - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Sleeping Car - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1",
+                "The Essex County Express - Act 2"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Dining Car - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Dining Car - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1",
+                "The Essex County Express - Act 2"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Parlor Car - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Parlor Car - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1",
+                "The Essex County Express - Act 2"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Parlor Car - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Engine Car (any) - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 1"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Emergent Monstrosity - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "The Essex County Express",
+                "The Essex County Express - Act 1",
+                "The Essex County Express - Act 2"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Run! - Advance",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "The Essex County Express",
+                "The Essex County Express - Act 1"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Engine Car (any) - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 2"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Engine Car (any) - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "The Essex County Express",
+                "The Essex County Express - Act 2"
+            ],
+            "region": "The Essex County Express - Beginning"
+        },
+        {
+            "name": "Get the Engine Running! - Advance",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "The Essex County Express",
+                "The Essex County Express - Act 2"
+            ],
+            "region": "The Essex County Express - After Act 1"
+        },
+        {
+            "name": "Forward Motion - Resolution 1",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "The Essex County Express",
+                "The Essex County Express - Act 2"
+            ],
+            "region": "The Essex County Express - After Act 1"
+        },
+        {
+            "name": "The Essex County Express - Finished",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "The Essex County Express"
+            ],
+            "region": "The Essex County Express - Beginning"
+        }
+    ]
+}

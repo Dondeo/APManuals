@@ -1,0 +1,427 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Main Path - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Devourer Below",
+                "The Devourer Below - Act 1"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": ""
+        },
+        {
+            "name": "Main Path - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
+        },
+        {
+            "name": "Arkham Woods: Unhallowed Ground - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Arkham Woods: Unhallowed Ground - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Arkham Woods: Twisting Path - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Arkham Woods: Twisting Path - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Arkham Woods: Old House - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Arkham Woods: Old House - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Arkham Woods: Cliffside - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Arkham Woods: Cliffside - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Arkham Woods: Tangled Thicket - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Arkham Woods: Tangled Thicket - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Arkham Woods: Quiet Glade - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Arkham Woods: Quiet Glade - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Ghoul Priest (NoZ:S3) - Victory Point 1",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "Ghoul Priest (NoZ:S3) - Victory Point 2",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "Screeching Byakhee - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "Yithian Observer - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "Relentless Dark Young - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "The Devourer Below - Act 2",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "Investigating The Trail - Advanced",
+            "category": [
+                "Night of Zealot",
+                "Act",
+                "The Devourer Below",
+                "The Devourer Below - Act 1"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+attack)}"
+        },
+        {
+            "name": "Worlf-Man Drew (NoZ:S3) - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)}"
+        },
+        {
+            "name": "Herman Collins (NoZ:S3) - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Peter Warren (NoZ:S3) - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Victoria Devereux (NoZ:S3) - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Ruth Turner (NoZ:S3) - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)}"
+        },
+        {
+            "name": "The Masked Hunter (NoZ:S3) - Victory Point 1",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "The Masked Hunter (NoZ:S3) - Victory Point 2",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "Ritual Site - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Devourer Below",
+                "The Devourer Below - Act 2"
+            ],
+            "region": "The Devourer Below - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+attack)}"
+        },
+        {
+            "name": "Into The Darkness - Advanced",
+            "category": [
+                "Night of Zealot",
+                "Act",
+                "The Devourer Below",
+                "The Devourer Below - Act 2"
+            ],
+            "region": "The Devourer Below - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+attack)}"
+        },
+        {
+            "name": "Ritual Site - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Devourer Below",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+attack)}"
+        },
+        {
+            "name": "Disrupting the Ritual - Advanced",
+            "category": [
+                "Night of Zealot",
+                "Act",
+                "The Devourer Below",
+                "The Devourer Below - Act 3",
+                "Hard Logic"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorCanPlayLita()} and {AnyUnlockedInvestigatorIsPrepared()}"
+        },
+        {
+            "name": "The Ritual Is Broken - Resolution 1",
+            "category": [
+                "Night of Zealot",
+                "Resolution",
+                "The Devourer Below",
+                "The Devourer Below - Act 3",
+                "Hard Logic"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorCanPlayLita()} and {AnyUnlockedInvestigatorIsPrepared()}"
+        },
+        {
+            "name": "The Devourer Below - Resolution 2",
+            "category": [
+                "Night of Zealot",
+                "Resolution",
+                "The Devourer Below",
+                "The Devourer Below - Act 1",
+                "Hard Logic"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorCanPlayLita()} and {AnyUnlockedInvestigatorIsPrepared()}"
+        },
+        {
+            "name": "Umôrdhoth - Resolution 3",
+            "category": [
+                "Night of Zealot",
+                "Resolution",
+                "The Devourer Below",
+                "The Devourer Below - Act 3"
+            ],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorCanPlayLita()} and ({AnyUnlockedInvestigatorWithActions(move+attack+evade)} or {TwoUnlockedInvestigatorsWithActions(move+attack,move+evade)}"
+        },
+        {
+            "name": "The Devourer Below - Finished",
+            "category": [
+                "Night of Zealot",
+                "Scenario",
+                "The Devourer Below"
+            ],
+            "region": "The Devourer Below - Beginning"
+        },
+        {
+            "name": "The Devourer Below - Win",
+            "category": ["Win Condition"],
+            "region": "The Devourer Below - Beginning",
+            "requires": "{AnyUnlockedInvestigatorCanPlayLita()} and ({AnyUnlockedInvestigatorWithActions(move+attack+evade)} or {TwoUnlockedInvestigatorsWithActions(move+attack,move+evade)}",
+            "victory": true
+        }
+    ]
+}

@@ -1,0 +1,383 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Your House - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks"
+        },
+        {
+            "name": "Your House - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
+        },
+        {
+            "name": "Rivertown - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks"
+        },
+        {
+            "name": "Rivertown - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
+        },
+        {
+            "name": "Southside: Historical Society - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Southside: Historical Society - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Southside: Ma's Boarding House - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Southside: Ma's Boarding House - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "St. Mary's Hospital - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "St. Mary's Hospital - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Miskatonic University - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Miskatonic University - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Miskatonic University - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Downtown: First Bank of Arkham - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Downtown: First Bank of Arkham - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Downtown: Arkham Asylum - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Downtown: Arkham Asylum - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Downtown: Arkham Asylum - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Easttown - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Easttown - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Graveyard - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Graveyard - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Graveyard - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Northside - Revealed",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+        },
+        {
+            "name": "Northside - Investigated",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Northside - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Location",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
+        },
+        {
+            "name": "Ghoul Priest (NoZ:S2) - Victory Point 1",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "Ghoul Priest (NoZ:S2) - Victory Point 2",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "Worlf-Man Drew (NoZ:S2) - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)}"
+        },
+        {
+            "name": "Herman Collins (NoZ:S2) - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Peter Warren (NoZ:S2) - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Victoria Devereux (NoZ:S2) - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
+        },
+        {
+            "name": "Ruth Turner (NoZ:S2) - Victory Point",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)}"
+        },
+        {
+            "name": "The Masked Hunter (NoZ:S2) - Victory Point 1",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "The Masked Hunter (NoZ:S2) - Victory Point 2",
+            "category": [
+                "Night of Zealot",
+                "Enemy",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "Uncovering The Conspiracy - Advanced",
+            "category": [
+                "Night of Zealot",
+                "Act",
+                "The Midnight Masks",
+                "Hard Logic"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{TwoUnlockedInvestigatorsWithActions(move+investigate+attack+evade+parley,move+investigate+attack+evade+parley)}"
+        },
+        {
+            "name": "Time Is Running Short - Resolution 2",
+            "category": [
+                "Night of Zealot",
+                "Resolution",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+evade)} or {AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "The Midnight Masks - Finished",
+            "category": [
+                "Night of Zealot",
+                "Scenario",
+                "The Midnight Masks"
+            ],
+            "region": "The Midnight Masks"
+        }
+    ]
+}

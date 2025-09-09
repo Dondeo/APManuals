@@ -1,0 +1,354 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+    "data": [
+        {
+            "name": "Another Dimension - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Another Dimension - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Tear Through Space - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Tear Through Space - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Prismatic Cascade - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Prismatic Cascade - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Endless Bridge - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "endless Bridge - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Steps of Y hagharl - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Steps of Y hagharl - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Dimensional Doorway - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Dimensional Doorway - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Dimensional Doorway - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Dimensional Doorway - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Yithian Observer (DL:S7) - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "Servant of the Lurker (DL:S7) - Victory Point",
+            "category": [
+                "Dunwich Legacy",
+                "Enemy",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
+        },
+        {
+            "name": "Out of this World - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "The Edge of the Universe - Revealed",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 2"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Into the Beyond - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 2"
+            ],
+            "region": "Lost in Time and Space - After Act 1"
+        },
+        {
+            "name": "The Edge of the Universe - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Close the Rift - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 3"
+            ],
+            "region": "Lost in Time and Space - After Act 2"
+        },
+        {
+            "name": "Tear Through Time - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - After Act 2"
+        },
+        {
+            "name": "Tear Through Time - Investigated",
+            "category": [
+                "Dunwich Legacy",
+                "Location",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - After Act 2"
+        },
+        {
+            "name": "Finding a New Way - Advanced",
+            "category": [
+                "Dunwich Legacy",
+                "Act",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - After Act 3"
+        },
+        {
+            "name": "Reality Beckons - Resolution 1",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - After Act 3"
+        },
+        {
+            "name": "Finding a New Way (defeated) - Resolution 2",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - After Act 3"
+        },
+        {
+            "name": "The End of All Things - Resolution 3",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Lost in Time and Space - Finished",
+            "category": [
+                "Dunwich Legacy",
+                "Scenario",
+                "Lost in Time and Space"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "The End of All Things - Resolution 3",
+            "category": [
+                "Dunwich Legacy",
+                "Resolution",
+                "Lost in Time and Space",
+                "Lost in Time and Space - Act 1",
+                "Lost in Time and Space - Act 2",
+                "Lost in Time and Space - Act 3",
+                "Lost in Time and Space - Act 4"
+            ],
+            "region": "Lost in Time and Space - Beginning"
+        },
+        {
+            "name": "Lost in Time and Space - Win",
+            "category": ["Win Condition"],
+            "region": "Lost in Time and Space - Beginning",
+            "victory": true
+        }
+    ]
+}
