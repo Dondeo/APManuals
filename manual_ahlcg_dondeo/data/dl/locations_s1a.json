@@ -212,7 +212,8 @@
                 "Extracurricular Activity",
                 "Extracurricular Activity - Act 1"
             ],
-            "region": "Extracurricular Activity - Beginning"
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Jazz Mulligan - Take Control",
@@ -222,7 +223,8 @@
                 "Extracurricular Activity",
                 "Extracurricular Activity - Act 2"
             ],
-            "region": "Extracurricular Activity - Beginning"
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
         },
         {
             "name": "Rice Whereabouts - Advanced",
@@ -232,7 +234,8 @@
                 "Extracurricular Activity",
                 "Extracurricular Activity - Act 2"
             ],
-            "region": "Extracurricular Activity - After Act 1"
+            "region": "Extracurricular Activity - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
         },
         {
             "name": "Dormitories - Revealed",
@@ -300,7 +303,8 @@
                 "Extracurricular Activity",
                 "Extracurricular Activity - Act 3"
             ],
-            "requires": "|Progressive History Unlock:3| and ({AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)})"
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
         },
         {
             "name": "Faculty Offices: The Hour is Late - Investigated",
@@ -310,7 +314,8 @@
                 "Extracurricular Activity",
                 "Extracurricular Activity - Act 3"
             ],
-            "requires": "|Progressive History Unlock:3| and ({AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)})"
+            "region": "Extracurricular Activity - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
         },
         {
             "name": "Alchemy Labs - Revealed",
@@ -345,7 +350,7 @@
                 "Extracurricular Activity - Act 3"
             ],
             "region": "Extracurricular Activity - After Act 1",
-            "requires": "|Progressive History Unlock:3| and ({AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)})"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
         },
         {
             "name": "The Experiment - Victory Point 1",

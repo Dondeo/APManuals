@@ -276,3 +276,28 @@ def AnyUnlockedInvestigatorIsPrepared(world: World, state: CollectionState, play
         if UnlockedInvestigatorCanPlay(world, state, player, investigator):
             return True
     return False
+
+firstScenario1A = {
+    "Extracurricular Activity - Beginning": "0",
+    "Extracurricular Activity - After Act 1": "1",
+    "Extracurricular Activity - After Act 2": "2",
+    "The House Always Wins - Beginning": "3",
+    "The House Always Wins - After Act 1": "4",
+    "The House Always Wins - After Act 1": "5",
+}
+firstScenario1B = {
+    "Extracurricular Activity - Beginning": "3",
+    "Extracurricular Activity - After Act 1": "4",
+    "Extracurricular Activity - After Act 2": "5",
+    "The House Always Wins - Beginning": "0",
+    "The House Always Wins - After Act 1": "1",
+    "The House Always Wins - After Act 1": "2",
+}
+def requirementDLScenario1(world: World, state: CollectionState, player: int, regionName: str):
+    optionValue = world.options.dunwich_legacy_starter_scenario.value
+    requirementScenario = {}
+    if optionValue == 0: # Scenario 1A
+        requirementScenario = firstScenario1A
+    else: # Scenario 1B
+        requirementScenario = firstScenario1B
+    return f"|Progressive History Unlock:{requirementScenario[regionName]}|"

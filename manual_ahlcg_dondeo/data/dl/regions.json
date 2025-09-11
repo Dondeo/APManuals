@@ -1,23 +1,29 @@
 {
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
     "Extracurricular Activity - Beginning": {
+        "requires": "{requirementDLScenario1(Extracurricular Activity - Beginning)}",
         "connects_to": ["Extracurricular Activity - After Act 1"],
         "starting": true
     },
     "Extracurricular Activity - After Act 1": {
+        "requires": "{requirementDLScenario1(Extracurricular Activity - After Act 1)}",
         "connects_to": ["Extracurricular Activity - After Act 2"]
     },
     "Extracurricular Activity - After Act 2": {
+        "requires": "{requirementDLScenario1(Extracurricular Activity - After Act 2)}",
         "connects_to": []
     },
     "The House Always Wins - Beginning": {
+        "requires": "{requirementDLScenario1(The House Always Wins - Beginning)}",
         "connects_to": ["The House Always Wins - After Act 1"],
         "starting": true
     },
     "The House Always Wins - After Act 1": {
+        "requires": "{requirementDLScenario1(The House Always Wins - After Act 1)}",
         "connects_to": ["The House Always Wins - After Act 2"]
     },
     "The House Always Wins - After Act 2": {
+        "requires": "{requirementDLScenario1(The House Always Wins - After Act 2)}",
         "connects_to": []
     },
     "The Miskatonic Museum - Beginning": {

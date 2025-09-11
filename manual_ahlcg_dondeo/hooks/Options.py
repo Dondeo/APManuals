@@ -102,6 +102,15 @@ class CampaignChoice(Choice):
     option_dl = 1
     default = 0
 
+class DunwichLegacyStarterScenario(Choice):
+    """
+    Only with Dunwich Legacy Campaign.
+    Choose which first scenario you begin.
+    """
+    display_name = "Starter Scenario (Dunwich Legacy)"
+    option_1A = 0
+    option_1B = 1
+
 class LocationLogic(Choice):
     """
     Some locations are classified as "hard" to obtain.
@@ -270,6 +279,8 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["campaign_choice"] = CampaignChoice
     options["playing_campaign_core_set"] = PlayingCampaignCoreSet
     options["playing_campaign_dunwich_legacy"] = PlayingCampaignDunwichLegacy
+
+    options["dunwich_legacy_starter_scenario"] = DunwichLegacyStarterScenario
 
     options["location_logic"] = LocationLogic
 
