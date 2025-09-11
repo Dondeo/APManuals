@@ -42,6 +42,19 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     if world.options.revised_core_set_expansion.value == 0 and world.options.core_set_expansion.value < 1:
         raise OptionError("One of the following options must have a value: Revised Core Set Expansion > 0; Core Set Expansion > 1")
+    if world.options.dunwich_legacy_expansion.value == 0:
+        world.options.dunwich_legacy_investigators.value = 0
+        world.options.dunwich_legacy_cards.value = 0
+    match world.options.campaign_choice.value:
+        case 0: # Core Set Campaign
+            world.options.playing_campaign_core_set.value = 1
+        case 1: # Dunwich Legacy Campaign
+            if world.options.dunwich_legacy_expansion.value <= 0:
+                raise OptionError("Cannot play dunwich legacy campaign because you don't have the required expansion")
+            else:
+                world.options.playing_campaign_dunwich_legacy.value = 1
+        case _:
+            raise OptionError("Error when reading value for Camapgin Choice")
     pass
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.

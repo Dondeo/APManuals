@@ -1,3 +1,141 @@
 {
-    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json"
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
+    "Guardian Level 0": {
+        "hidden": true
+    },
+    "Guardian Level 1": {
+        "hidden": true
+    },
+    "Guardian Level 2": {
+        "hidden": true
+    },
+    "Guardian Level 3": {
+        "hidden": true
+    },
+    "Guardian Level 4": {
+        "hidden": true
+    },
+    "Guardian Level 5": {
+        "hidden": true
+    },
+    "Seeker Level 0": {
+        "hidden": true
+    },
+    "Seeker Level 1": {
+        "hidden": true
+    },
+    "Seeker Level 2": {
+        "hidden": true
+    },
+    "Seeker Level 3": {
+        "hidden": true
+    },
+    "Seeker Level 4": {
+        "hidden": true
+    },
+    "Seeker Level 5": {
+        "hidden": true
+    },
+    "Rogue Level 0": {
+        "hidden": true
+    },
+    "Rogue Level 1": {
+        "hidden": true
+    },
+    "Rogue Level 2": {
+        "hidden": true
+    },
+    "Rogue Level 3": {
+        "hidden": true
+    },
+    "Rogue Level 4": {
+        "hidden": true
+    },
+    "Rogue Level 5": {
+        "hidden": true
+    },
+    "Survivor Level 0": {
+        "hidden": true
+    },
+    "Survivor Level 1": {
+        "hidden": true
+    },
+    "Survivor Level 2": {
+        "hidden": true
+    },
+    "Survivor Level 3": {
+        "hidden": true
+    },
+    "Survivor Level 4": {
+        "hidden": true
+    },
+    "Survivor Level 5": {
+        "hidden": true
+    },
+    "Mystic Level 0": {
+        "hidden": true
+    },
+    "Mystic Level 1": {
+        "hidden": true
+    },
+    "Mystic Level 2": {
+        "hidden": true
+    },
+    "Mystic Level 3": {
+        "hidden": true
+    },
+    "Mystic Level 4": {
+        "hidden": true
+    },
+    "Mystic Level 5": {
+        "hidden": true
+    },
+    "Neutral Level 0": {
+        "hidden": true
+    },
+    "Neutral Level 1": {
+        "hidden": true
+    },
+    "Neutral Level 2": {
+        "hidden": true
+    },
+    "Neutral Level 3": {
+        "hidden": true
+    },
+    "Neutral Level 4": {
+        "hidden": true
+    },
+    "Neutral Level 5": {
+        "hidden": true
+    },
+    "Other5 Level 0": {
+        "hidden": true
+    },
+    "Ally Slot": {
+        "hidden": true
+    },
+    "Accessory Slot": {
+        "hidden": true
+    },
+    "Body Slot": {
+        "hidden": true
+    },
+    "Hand Slot": {
+        "hidden": true
+    },
+    "2 Hand Slots": {
+        "hidden": true
+    },
+    "Arcane Slot": {
+        "hidden": true
+    },
+    "2 Arcane Slots": {
+        "hidden": true
+    },
+    "Night of Zealot": {
+        "yaml_option": ["playing_campaign_core_set"]
+    },
+    "Dunwich Legacy": {
+        "yaml_option": ["playing_campaign_dunwich_legacy"]
+    }
 }

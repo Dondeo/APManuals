@@ -74,7 +74,7 @@
         "connects_to": []
     },
     "Lost in Time and Space - Beginning": {
-        "requires": "|Progressive History Unlock:18|",
+        "requires": "|Progressive History Unlock:18| and |Where Doom Awaits - Resolution 1 - Unlocked|",
         "connects_to": ["Lost in Time and Space - After Act 1"],
         "starting": true
     },

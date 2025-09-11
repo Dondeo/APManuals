@@ -21,6 +21,16 @@ from typing import Type, Any
 # Then, to see if the option is set, you can call is_option_enabled or get_option_value.
 #####################################################################
 
+# Logic options
+
+class PlayingCampaignCoreSet(Toggle):
+    default = 0
+
+class PlayingCampaignDunwichLegacy(Toggle):
+    default = 0
+
+# File options
+
 class CoreSetExpansion(Range):
     """
     Number of Core Set boxes you have. This will determine how many number of cards you can afford to make a deck for an investigator.
@@ -40,9 +50,61 @@ class RevisedCoreSetExpansion(Range):
     range_end = 2
     default = 0
 
+class DunwichLegacyExpansion(Range):
+    """
+    Definition for all Expansion Packs:
+    Number of said Expansion Pack you have. You must fulfill one of these two criterias to set to '1':
+    - Having the Campaign Expansion + Investigator Expansion
+    - Having the older expansion pack + all mythos packs
+    You can set the option to '2' if you have the requirement above and one of these two criterias:
+    - Another Investigator Expansion
+    - Another older expansion pack + all mythos packs
+
+    These options allow you to set options based on the related expansion.
+
+    ---
+    Number of Dunwich Legacy Expansion Pack you have.
+    """
+    range_start = 0
+    range_end = 2
+    default = 0
+
+class CoreSetInvestigators(Toggle):
+    """
+    When Enabled: Add all investigators from Core Set to the pool.
+    If all investigators options are disabled, this option will be enabled by default.
+    """
+    default = 1
+
+class DunwichLegacyInvestigators(Toggle):
+    """
+    Dunwich Legacy Expansion Required.
+    When Enabled: Add all investigators from Dunwich Legacy Expansion Pack to the pool.
+    """
+    default = 0
+
+class DunwichLegacyCards(Toggle):
+    """
+    Dunwich Legacy Expansion Required.
+    When Enabled: Add all deckbuilding cards from Dunwich Legacy Expansion Pack to the pool.
+    """
+    default = 0
+
+class CampaignChoice(Choice):
+    """
+    Choose a campaign you want to play.
+
+    noz: Night of the Zealot
+    dl: Dunwich Legacy (Dunwich Legacy Expansion Required)
+    """
+    display_name = "Campaign choice"
+    option_noz = 0
+    option_dl = 1
+    default = 0
+
 class LocationLogic(Choice):
     """
-    Some locations are classified as "hard" to obtain. eg: Advance the Act at The Midnight Masks, beating Umôrdhoth to get Resolution.
+    Some locations are classified as "hard" to obtain.
     This option give you the possibility to remove or keep these locations to logic.
 
     Standard: Remove Hard Locations to logic
@@ -199,6 +261,15 @@ class NumberOfStarterSlotArcane(Range):
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["core_set_expansion"] = CoreSetExpansion
     options["revised_core_set_expansion"] = RevisedCoreSetExpansion
+    options["dunwich_legacy_expansion"] = DunwichLegacyExpansion
+
+    options["core_set_investigators"] = CoreSetInvestigators
+    options["dunwich_legacy_investigators"] = DunwichLegacyInvestigators
+    options["dunwich_legacy_cards"] = DunwichLegacyCards
+
+    options["campaign_choice"] = CampaignChoice
+    options["playing_campaign_core_set"] = PlayingCampaignCoreSet
+    options["playing_campaign_dunwich_legacy"] = PlayingCampaignDunwichLegacy
 
     options["location_logic"] = LocationLogic
 
