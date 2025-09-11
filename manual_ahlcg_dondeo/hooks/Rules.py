@@ -283,7 +283,7 @@ firstScenario1A = {
     "Extracurricular Activity - After Act 2": "2",
     "The House Always Wins - Beginning": "3",
     "The House Always Wins - After Act 1": "4",
-    "The House Always Wins - After Act 1": "5",
+    "The House Always Wins - After Act 2": "5",
 }
 firstScenario1B = {
     "Extracurricular Activity - Beginning": "3",
@@ -291,7 +291,7 @@ firstScenario1B = {
     "Extracurricular Activity - After Act 2": "5",
     "The House Always Wins - Beginning": "0",
     "The House Always Wins - After Act 1": "1",
-    "The House Always Wins - After Act 1": "2",
+    "The House Always Wins - After Act 2": "2",
 }
 def requirementDLScenario1(world: World, state: CollectionState, player: int, regionName: str):
     optionValue = world.options.dunwich_legacy_starter_scenario.value
