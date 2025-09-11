@@ -2,12 +2,196 @@
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
     "data": [
         {
-            "name": "Lita Chantler",
+            "name": "Extracurricular Activity - Resolution 1 - Unlocked",
             "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Extracurricular Activity - Resolution 2 - Unlocked",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Extracurricular Activity - Resolution 3 - Unlocked",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Extracurricular Activity - Resolution 4 - Unlocked",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "filler": true
+        },
+        {
+            "name": "The House Always Wins - Resolution 2 - Unlocked",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "useful": true
+        },
+        {
+            "name": "The House Always Wins - Resolution 3 - Unlocked",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "useful": true
+        },
+        {
+            "name": "The House Always Wins - Resolution 4 - Unlocked",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "filler": true
+        },
+        {
+            "name": "Dr. Henry Armitage",
+            "category": [
+                "Dunwich Legacy",
                 "Standalone",
                 "Ally Slot"
             ],
-            "progression": true
+            "useful": true
+        },
+        {
+            "name": "Professor Warren Rice",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone",
+                "Ally Slot"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Dr. Francis Morgan",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone",
+                "Ally Slot"
+            ],
+            "useful": true
+        },
+        {
+            "name": "The Miskatonic Museum - Resolution 1 - Unlocked",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "useful": true
+        },
+        {
+            "name": "The Miskatonic Museum - Resolution 2 - Unlocked",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "useful": true
+        },
+        {
+            "name": "The Necronomicon: Olaus Wormius Translation",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone",
+                "Hand Slot"
+            ],
+            "useful": true
+        },
+        {
+            "name": "The County Essex Express - Resolution 1 - Unlocked",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Zebulon Whateley",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone",
+                "Ally Slot"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Earl Sawyer",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone",
+                "Ally Slot"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Blood On The Altar - Resolution 1 - Unlocked",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Blood On The Altar - Resolution 2 - Unlocked",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Blood On The Altar - Resolution 3 - Unlocked",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Add 1 name below Sacrificed to Yog-Sothoth",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "useful": true,
+            "count": 5
+        },
+        {
+            "name": "Undimensioned and Unseen - Resolution 2 - Unlocked",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "useful": true
+        },
+        {
+            "name": "Remove 1 Brood of Yog-Sothoth that evaporates in nature",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "useful": true,
+            "count": 4
+        },
+        {
+            "name": "Where Doom Awaits - Resolution 1 - Unlocked",
+            "category": [
+                "Dunwich Legacy",
+                "Standalone"
+            ],
+            "progressive": true
         }
-    ]
+     ]
 }

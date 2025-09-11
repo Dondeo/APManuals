@@ -20,7 +20,8 @@
                 "Undimensioned and Unseen - Act 1",
                 "Undimensioned and Unseen - Act 2"
             ],
-            "region": "Undimensioned and Unseen - Beginning"
+            "region": "Undimensioned and Unseen - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
         },
         {
             "name": "Cold Spring Glen (any) - Revealed",
@@ -30,8 +31,9 @@
                 "Undimensioned and Unseen",
                 "Undimensioned and Unseen - Act 1"
             ],
-            "region": "Undimensioned and Unseen - Beginning"
-        },
+            "region": "Undimensioned and Unseen - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+         },
         {
             "name": "Cold Spring Glen (any) - Investigated",
             "category": [
@@ -41,7 +43,8 @@
                 "Undimensioned and Unseen - Act 1",
                 "Undimensioned and Unseen - Act 2"
             ],
-            "region": "Undimensioned and Unseen - Beginning"
+            "region": "Undimensioned and Unseen - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Ten-Acre Meadow (any) - Revealed",
@@ -51,7 +54,8 @@
                 "Undimensioned and Unseen",
                 "Undimensioned and Unseen - Act 1"
             ],
-            "region": "Undimensioned and Unseen - Beginning"
+            "region": "Undimensioned and Unseen - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
             "name": "Ten-Acre Meadow (any) - Investigated",
@@ -62,7 +66,8 @@
                 "Undimensioned and Unseen - Act 1",
                 "Undimensioned and Unseen - Act 2"
             ],
-            "region": "Undimensioned and Unseen - Beginning"
+            "region": "Undimensioned and Unseen - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Blasted Heath (any) - Revealed",
@@ -72,7 +77,8 @@
                 "Undimensioned and Unseen",
                 "Undimensioned and Unseen - Act 1"
             ],
-            "region": "Undimensioned and Unseen - Beginning"
+            "region": "Undimensioned and Unseen - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
             "name": "Blasted Heath (any) - Investigated",
@@ -83,7 +89,8 @@
                 "Undimensioned and Unseen - Act 1",
                 "Undimensioned and Unseen - Act 2"
             ],
-            "region": "Undimensioned and Unseen - Beginning"
+            "region": "Undimensioned and Unseen - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Whateley Ruins (any) - Revealed",
@@ -93,7 +100,8 @@
                 "Undimensioned and Unseen",
                 "Undimensioned and Unseen - Act 1"
             ],
-            "region": "Undimensioned and Unseen - Beginning"
+            "region": "Undimensioned and Unseen - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
             "name": "Whateley Ruins (any) - Investigated",
@@ -104,7 +112,8 @@
                 "Undimensioned and Unseen - Act 1",
                 "Undimensioned and Unseen - Act 2"
             ],
-            "region": "Undimensioned and Unseen - Beginning"
+            "region": "Undimensioned and Unseen - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Devil Hop Yard (any) - Revealed",
@@ -114,7 +123,8 @@
                 "Undimensioned and Unseen",
                 "Undimensioned and Unseen - Act 1"
             ],
-            "region": "Undimensioned and Unseen - Beginning"
+            "region": "Undimensioned and Unseen - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
             "name": "Devil Hop Yard (any) - Investigated",
@@ -125,7 +135,8 @@
                 "Undimensioned and Unseen - Act 1",
                 "Undimensioned and Unseen - Act 2"
             ],
-            "region": "Undimensioned and Unseen - Beginning"
+            "region": "Undimensioned and Unseen - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Saracenix Script - Advanced",
@@ -135,7 +146,8 @@
                 "Undimensioned and Unseen",
                 "Undimensioned and Unseen - Act 1"
             ],
-            "region": "Undimensioned and Unseen - Beginning"
+            "region": "Undimensioned and Unseen - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Brood of Yog-Sothoth - Victory Point",
@@ -145,7 +157,8 @@
                 "Undimensioned and Unseen",
                 "Undimensioned and Unseen - Act 2"
             ],
-            "region": "Undimensioned and Unseen - Beginning"
+            "region": "Undimensioned and Unseen - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)}"
         },
         {
             "name": "They Must Be Destroyed! - Advanced",
@@ -155,7 +168,8 @@
                 "Undimensioned and Unseen",
                 "Undimensioned and Unseen - Act 2"
             ],
-            "region": "Undimensioned and Unseen - After Act 1"
+            "region": "Undimensioned and Unseen - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)}"
         },
         {
             "name": "The Brood is Ended - Resolution 2",
@@ -165,7 +179,8 @@
                 "Undimensioned and Unseen",
                 "Undimensioned and Unseen - Act 2"
             ],
-            "region": "Undimensioned and Unseen - After Act 1"
+            "region": "Undimensioned and Unseen - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)}"
         },
         {
             "name": "Undimensioned and Unseen - Finished",

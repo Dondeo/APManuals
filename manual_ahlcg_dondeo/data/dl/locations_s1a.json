@@ -337,6 +337,17 @@
             "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)}"
         },
         {
+            "name": "Alchemical Concoction - Take Control",
+            "category": [
+                "Dunwich Legacy",
+                "Scenario",
+                "Extracurricular Activity",
+                "Extracurricular Activity - Act 3"
+            ],
+            "region": "Extracurricular Activity - After Act 1",
+            "requires": "|Progressive History Unlock:3| and ({AnyUnlockedInvestigatorWithActions(move+investigate+parley)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+parley)})"
+        },
+        {
             "name": "The Experiment - Victory Point 1",
             "category": [
                 "Dunwich Legacy",

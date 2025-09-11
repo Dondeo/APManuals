@@ -36,7 +36,8 @@
                 "The House Always Wins - Act 2",
                 "The House Always Wins - Act 3"
             ],
-            "region": "The House Always Wins - Beginning"
+            "region": "The House Always Wins - Beginning",
+            "requires": "|Progressive History Unlock:3| or {AnyUnlockedInvestigatorWithActions(move)} or {AnyUnlockedInvestigatorWithActions(evade)} or {AnyUnlockedInvestigatorWithActions(attack)}"
         },
         {
             "name": "Clover Club Lounge - Investigated",

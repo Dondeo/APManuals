@@ -20,7 +20,8 @@
                 "The Essex County Express - Act 1",
                 "The Essex County Express - Act 2"
             ],
-            "region": "The Essex County Express - Beginning"
+            "region": "The Essex County Express - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
         },
         {
             "name": "Passenger Car (Strength) - Revealed",
@@ -41,7 +42,8 @@
                 "The Essex County Express - Act 1",
                 "The Essex County Express - Act 2"
             ],
-            "region": "The Essex County Express - Beginning"
+            "region": "The Essex County Express - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
         },
         {
             "name": "Passenger Car (Willpower) - Revealed",
@@ -62,7 +64,8 @@
                 "The Essex County Express - Act 1",
                 "The Essex County Express - Act 2"
             ],
-            "region": "The Essex County Express - Beginning"
+            "region": "The Essex County Express - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
         },
         {
             "name": "Passenger Car (Knowledge) - Revealed",
@@ -83,7 +86,8 @@
                 "The Essex County Express - Act 1",
                 "The Essex County Express - Act 2"
             ],
-            "region": "The Essex County Express - Beginning"
+            "region": "The Essex County Express - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
         },
         {
             "name": "Passenger Car (Wild) - Revealed",
@@ -104,7 +108,8 @@
                 "The Essex County Express - Act 1",
                 "The Essex County Express - Act 2"
             ],
-            "region": "The Essex County Express - Beginning"
+            "region": "The Essex County Express - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
         },
         {
             "name": "Sleeping Car - Revealed",
@@ -125,7 +130,8 @@
                 "The Essex County Express - Act 1",
                 "The Essex County Express - Act 2"
             ],
-            "region": "The Essex County Express - Beginning"
+            "region": "The Essex County Express - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
         },
         {
             "name": "Dining Car - Revealed",
@@ -146,7 +152,8 @@
                 "The Essex County Express - Act 1",
                 "The Essex County Express - Act 2"
             ],
-            "region": "The Essex County Express - Beginning"
+            "region": "The Essex County Express - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
         },
         {
             "name": "Parlor Car - Revealed",
@@ -167,7 +174,8 @@
                 "The Essex County Express - Act 1",
                 "The Essex County Express - Act 2"
             ],
-            "region": "The Essex County Express - Beginning"
+            "region": "The Essex County Express - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
         },
         {
             "name": "Parlor Car - Victory Point",
@@ -177,7 +185,8 @@
                 "The Essex County Express",
                 "The Essex County Express - Act 1"
             ],
-            "region": "The Essex County Express - Beginning"
+            "region": "The Essex County Express - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
         },
         {
             "name": "Engine Car (any) - Revealed",
@@ -187,7 +196,8 @@
                 "The Essex County Express",
                 "The Essex County Express - Act 1"
             ],
-            "region": "The Essex County Express - Beginning"
+            "region": "The Essex County Express - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
         },
         {
             "name": "Emergent Monstrosity - Victory Point",
@@ -198,7 +208,8 @@
                 "The Essex County Express - Act 1",
                 "The Essex County Express - Act 2"
             ],
-            "region": "The Essex County Express - Beginning"
+            "region": "The Essex County Express - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+fight)}"
         },
         {
             "name": "Run! - Advance",
@@ -208,7 +219,8 @@
                 "The Essex County Express",
                 "The Essex County Express - Act 1"
             ],
-            "region": "The Essex County Express - Beginning"
+            "region": "The Essex County Express - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
         },
         {
             "name": "Engine Car (any) - Investigated",
@@ -218,7 +230,8 @@
                 "The Essex County Express",
                 "The Essex County Express - Act 2"
             ],
-            "region": "The Essex County Express - Beginning"
+            "region": "The Essex County Express - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
         },
         {
             "name": "Engine Car (any) - Victory Point",
@@ -228,7 +241,8 @@
                 "The Essex County Express",
                 "The Essex County Express - Act 2"
             ],
-            "region": "The Essex County Express - Beginning"
+            "region": "The Essex County Express - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
         },
         {
             "name": "Get the Engine Running! - Advance",
@@ -238,7 +252,8 @@
                 "The Essex County Express",
                 "The Essex County Express - Act 2"
             ],
-            "region": "The Essex County Express - After Act 1"
+            "region": "The Essex County Express - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
         },
         {
             "name": "Forward Motion - Resolution 1",
@@ -248,7 +263,8 @@
                 "The Essex County Express",
                 "The Essex County Express - Act 2"
             ],
-            "region": "The Essex County Express - After Act 1"
+            "region": "The Essex County Express - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
         },
         {
             "name": "The Essex County Express - Finished",

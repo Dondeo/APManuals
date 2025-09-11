@@ -19,7 +19,8 @@
                 "Where Doom Awaits",
                 "Where Doom Awaits - Act 1"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
         },
         {
             "name": "Slaughtered Woods - Revealed",
@@ -31,7 +32,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
             "name": "Slaughtered Woods - Investigated",
@@ -43,7 +45,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Eerie Glade - Revealed",
@@ -55,7 +58,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
             "name": "Eerie Glade - Investigated",
@@ -67,7 +71,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Destroyed Path - Revealed",
@@ -79,7 +84,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
             "name": "Destroyed Path - Investigated",
@@ -91,7 +97,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Frozen Spring - Revealed",
@@ -103,7 +110,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
             "name": "Frozen Spring - Investigated",
@@ -115,7 +123,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Ascending Path - Revealed",
@@ -125,7 +134,8 @@
                 "Where Doom Awaits",
                 "Where Doom Awaits - Act 1"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
             "name": "Crazed Shoggoth - Victory Point",
@@ -137,7 +147,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
         },
         {
             "name": "Wizard of Yog-Sothoth (DL:S6)- Victory Point",
@@ -149,7 +160,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)}"
         },
         {
             "name": "The Path to the Hill - Advanced",
@@ -159,7 +171,8 @@
                 "Where Doom Awaits",
                 "Where Doom Awaits - Act 1"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Ascending Path - Investigated",
@@ -169,7 +182,8 @@
                 "Where Doom Awaits",
                 "Where Doom Awaits - Act 2"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Dimensional Gap - Revealed",
@@ -180,7 +194,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Dimensional Gap - Investigated",
@@ -191,7 +206,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "A Tear in the Path - Revealed",
@@ -202,7 +218,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "A Tear in the Path - Investigated",
@@ -213,7 +230,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Uprooted Woods - Revealed",
@@ -224,7 +242,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Uprooted Woods - Investigated",
@@ -235,7 +254,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Lost Memories - Revealed",
@@ -246,7 +266,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Lost Memories - Investigated",
@@ -257,7 +278,8 @@
                 "Where Doom Awaits - Act 2",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Sentinel Peak - Revealed",
@@ -267,7 +289,8 @@
                 "Where Doom Awaits",
                 "Where Doom Awaits - Act 2"
             ],
-            "region": "Where Doom Awaits - Beginning"
+            "region": "Where Doom Awaits - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Ascending the Hill (any) - Advanced",
@@ -277,7 +300,8 @@
                 "Where Doom Awaits",
                 "Where Doom Awaits - Act 2"
             ],
-            "region": "Where Doom Awaits - After Act 1"
+            "region": "Where Doom Awaits - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Sentinel Peak - Investigated",
@@ -287,7 +311,8 @@
                 "Where Doom Awaits",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - After Act 1"
+            "region": "Where Doom Awaits - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Sentinel Peak - Victory Point 1",
@@ -297,7 +322,8 @@
                 "Where Doom Awaits",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - After Act 1"
+            "region": "Where Doom Awaits - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Sentinel Peak - Victory Point 2",
@@ -307,7 +333,8 @@
                 "Where Doom Awaits",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - After Act 1"
+            "region": "Where Doom Awaits - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Seth Bishop - Victory Point",
@@ -317,7 +344,8 @@
                 "Where Doom Awaits",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - After Act 1"
+            "region": "Where Doom Awaits - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)}"
         },
         {
             "name": "The Gate Opens - Advanced",
@@ -327,7 +355,8 @@
                 "Where Doom Awaits",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - After Act 2"
+            "region": "Where Doom Awaits - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Peer Into the Abyss - Resolution 1",
@@ -337,7 +366,8 @@
                 "Where Doom Awaits",
                 "Where Doom Awaits - Act 3"
             ],
-            "region": "Where Doom Awaits - After Act 2"
+            "region": "Where Doom Awaits - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Where Doom Awaits - Finished",

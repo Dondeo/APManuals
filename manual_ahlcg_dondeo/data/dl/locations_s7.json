@@ -22,7 +22,8 @@
                 "Lost in Time and Space - Act 3",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - Beginning"
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(investigate)}"
         },
         {
             "name": "Tear Through Space - Revealed",
@@ -35,7 +36,9 @@
                 "Lost in Time and Space - Act 3",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - Beginning"
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
+
         },
         {
             "name": "Tear Through Space - Investigated",
@@ -48,7 +51,8 @@
                 "Lost in Time and Space - Act 3",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - Beginning"
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Prismatic Cascade - Revealed",
@@ -61,7 +65,8 @@
                 "Lost in Time and Space - Act 3",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - Beginning"
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
             "name": "Prismatic Cascade - Investigated",
@@ -74,7 +79,8 @@
                 "Lost in Time and Space - Act 3",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - Beginning"
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Endless Bridge - Revealed",
@@ -87,7 +93,8 @@
                 "Lost in Time and Space - Act 3",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - Beginning"
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
             "name": "endless Bridge - Investigated",
@@ -100,7 +107,8 @@
                 "Lost in Time and Space - Act 3",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - Beginning"
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Steps of Y hagharl - Revealed",
@@ -113,7 +121,8 @@
                 "Lost in Time and Space - Act 3",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - Beginning"
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
             "name": "Steps of Y hagharl - Investigated",
@@ -126,7 +135,8 @@
                 "Lost in Time and Space - Act 3",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - Beginning"
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Dimensional Doorway - Revealed",
@@ -139,7 +149,8 @@
                 "Lost in Time and Space - Act 3",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - Beginning"
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move)}"
         },
         {
             "name": "Dimensional Doorway - Investigated",
@@ -152,33 +163,8 @@
                 "Lost in Time and Space - Act 3",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - Beginning"
-        },
-        {
-            "name": "Dimensional Doorway - Investigated",
-            "category": [
-                "Dunwich Legacy",
-                "Location",
-                "Lost in Time and Space",
-                "Lost in Time and Space - Act 1",
-                "Lost in Time and Space - Act 2",
-                "Lost in Time and Space - Act 3",
-                "Lost in Time and Space - Act 4"
-            ],
-            "region": "Lost in Time and Space - Beginning"
-        },
-        {
-            "name": "Dimensional Doorway - Investigated",
-            "category": [
-                "Dunwich Legacy",
-                "Location",
-                "Lost in Time and Space",
-                "Lost in Time and Space - Act 1",
-                "Lost in Time and Space - Act 2",
-                "Lost in Time and Space - Act 3",
-                "Lost in Time and Space - Act 4"
-            ],
-            "region": "Lost in Time and Space - Beginning"
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Yithian Observer (DL:S7) - Victory Point",
@@ -216,7 +202,8 @@
                 "Lost in Time and Space",
                 "Lost in Time and Space - Act 1"
             ],
-            "region": "Lost in Time and Space - Beginning"
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "The Edge of the Universe - Revealed",
@@ -226,7 +213,8 @@
                 "Lost in Time and Space",
                 "Lost in Time and Space - Act 2"
             ],
-            "region": "Lost in Time and Space - Beginning"
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Into the Beyond - Advanced",
@@ -236,7 +224,8 @@
                 "Lost in Time and Space",
                 "Lost in Time and Space - Act 2"
             ],
-            "region": "Lost in Time and Space - After Act 1"
+            "region": "Lost in Time and Space - After Act 1",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "The Edge of the Universe - Investigated",
@@ -247,7 +236,8 @@
                 "Lost in Time and Space - Act 2",
                 "Lost in Time and Space - Act 3"
             ],
-            "region": "Lost in Time and Space - Beginning"
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Close the Rift - Advanced",
@@ -257,7 +247,8 @@
                 "Lost in Time and Space",
                 "Lost in Time and Space - Act 3"
             ],
-            "region": "Lost in Time and Space - After Act 2"
+            "region": "Lost in Time and Space - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Tear Through Time - Investigated",
@@ -267,7 +258,8 @@
                 "Lost in Time and Space",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - After Act 2"
+            "region": "Lost in Time and Space - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Tear Through Time - Investigated",
@@ -277,7 +269,8 @@
                 "Lost in Time and Space",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - After Act 2"
+            "region": "Lost in Time and Space - After Act 2",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Finding a New Way - Advanced",
@@ -287,7 +280,8 @@
                 "Lost in Time and Space",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - After Act 3"
+            "region": "Lost in Time and Space - After Act 3",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Reality Beckons - Resolution 1",
@@ -297,7 +291,8 @@
                 "Lost in Time and Space",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - After Act 3"
+            "region": "Lost in Time and Space - After Act 3",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "Finding a New Way (defeated) - Resolution 2",
@@ -307,7 +302,8 @@
                 "Lost in Time and Space",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - After Act 3"
+            "region": "Lost in Time and Space - After Act 3",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
             "name": "The End of All Things - Resolution 3",
@@ -320,7 +316,8 @@
                 "Lost in Time and Space - Act 3",
                 "Lost in Time and Space - Act 4"
             ],
-            "region": "Lost in Time and Space - Beginning"
+            "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+attack+evade)}"
         },
         {
             "name": "Lost in Time and Space - Finished",
@@ -332,22 +329,10 @@
             "region": "Lost in Time and Space - Beginning"
         },
         {
-            "name": "The End of All Things - Resolution 3",
-            "category": [
-                "Dunwich Legacy",
-                "Resolution",
-                "Lost in Time and Space",
-                "Lost in Time and Space - Act 1",
-                "Lost in Time and Space - Act 2",
-                "Lost in Time and Space - Act 3",
-                "Lost in Time and Space - Act 4"
-            ],
-            "region": "Lost in Time and Space - Beginning"
-        },
-        {
             "name": "Lost in Time and Space - Win",
             "category": ["Win Condition"],
             "region": "Lost in Time and Space - Beginning",
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}",
             "victory": true
         }
     ]
