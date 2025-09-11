@@ -10,14 +10,14 @@
     "Extracurricular Activity - After Act 2": {
         "connects_to": []
     },
-    "The House Always Win - Beginning": {
-        "connects_to": ["The House Always Win - After Act 1"],
+    "The House Always Wins - Beginning": {
+        "connects_to": ["The House Always Wins - After Act 1"],
         "starting": true
     },
-    "The House Always Win - After Act 1": {
-        "connects_to": ["The House Always Win - After Act 2"]
+    "The House Always Wins - After Act 1": {
+        "connects_to": ["The House Always Wins - After Act 2"]
     },
-    "The House Always Win - After Act 2": {
+    "The House Always Wins - After Act 2": {
         "connects_to": []
     },
     "The Miskatonic Museum - Beginning": {
@@ -42,12 +42,12 @@
         "requires": "|Progressive History Unlock:10|",
         "connects_to": []
     },
-    "Blood on the Altar - Beginning": {
+    "Blood On The Altar - Beginning": {
         "requires": "|Progressive History Unlock:11|",
-        "connects_to": ["Blood on the Altar - After Act 1"],
+        "connects_to": ["Blood On The Altar - After Act 1"],
         "starting": true
     },
-    "Blood on the Altar - After Act 1": {
+    "Blood On The Altar - After Act 1": {
         "requires": "|Progressive History Unlock:12|",
         "connects_to": []
     },

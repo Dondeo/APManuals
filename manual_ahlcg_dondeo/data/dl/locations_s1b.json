@@ -50,7 +50,7 @@
                 "The House Always Wins - Act 3"
             ],
             "region": "The House Always Wins - Beginning",
-            "requires": "{AnyUnlockedInvestigatorWithActions(evade+investigate)} or {AnyUnlockedInvestigatorWithActions(move+investigate)} or {AnyUnlockedInvestigatorWithActions(fight+investigate)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(evade+investigate)} or {AnyUnlockedInvestigatorWithActions(move+investigate)} or {AnyUnlockedInvestigatorWithActions(attack+investigate)}"
         },
         {
             "name": "Clover Club Bar - Revealed",
@@ -358,7 +358,7 @@
                 "The House Always Wins - Act 3"
             ],
             "region": "The House Always Wins - Beginning",
-            "requires": "{AnyUnlockedInvestigatorWithActions(fight)} or {AnyUnlockedInvestigatorWithActions(evade)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(attack)} or {AnyUnlockedInvestigatorWithActions(evade)}"
         },
         {
             "name": "The House Always Wins - Finished",

@@ -197,7 +197,7 @@
                 "The Essex County Express - Act 1"
             ],
             "region": "The Essex County Express - Beginning",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
         },
         {
             "name": "Emergent Monstrosity - Victory Point",
@@ -209,7 +209,7 @@
                 "The Essex County Express - Act 2"
             ],
             "region": "The Essex County Express - Beginning",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+fight)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)}"
         },
         {
             "name": "Run! - Advance",
@@ -220,7 +220,7 @@
                 "The Essex County Express - Act 1"
             ],
             "region": "The Essex County Express - Beginning",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
         },
         {
             "name": "Engine Car (any) - Investigated",
@@ -231,7 +231,7 @@
                 "The Essex County Express - Act 2"
             ],
             "region": "The Essex County Express - Beginning",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
         },
         {
             "name": "Engine Car (any) - Victory Point",
@@ -242,7 +242,7 @@
                 "The Essex County Express - Act 2"
             ],
             "region": "The Essex County Express - Beginning",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
         },
         {
             "name": "Get the Engine Running! - Advance",
@@ -253,7 +253,7 @@
                 "The Essex County Express - Act 2"
             ],
             "region": "The Essex County Express - After Act 1",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
         },
         {
             "name": "Forward Motion - Resolution 1",
@@ -264,7 +264,7 @@
                 "The Essex County Express - Act 2"
             ],
             "region": "The Essex County Express - After Act 1",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {AnyUnlockedInvestigatorWithActions(move+investigate+evade)}"
         },
         {
             "name": "The Essex County Express - Finished",

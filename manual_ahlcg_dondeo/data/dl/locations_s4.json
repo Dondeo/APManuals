@@ -280,7 +280,7 @@
                 "Blood On The Altar - Act 2"
             ],
             "region": "Blood On The Altar - After Act 1",
-            "requires": "|The Necronomicon: Olaus Wormius Translation| and ({AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)})"
+            "requires": "|The Necronomicon - Olaus Wormius Translation| and ({AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)})"
         },
         {
             "name": "Banishing the Creature - Resolution 3",

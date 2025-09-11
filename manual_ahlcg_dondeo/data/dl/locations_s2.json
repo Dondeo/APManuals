@@ -292,7 +292,7 @@
                 "The Miskatonic Museum - Act 2"
             ],
             "region": "The Miskatonic Museum - Beginning",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+fight)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)}"
         },
         {
             "name": "Night at the Museum - Advanced",
@@ -303,7 +303,7 @@
                 "The Miskatonic Museum - Act 2"
             ],
             "region": "The Miskatonic Museum - After Act 1",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+fight)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)}"
         },
         {
             "name": "Breaking and Entering - Advanced",
@@ -314,7 +314,7 @@
                 "The Miskatonic Museum - Act 2"
             ],
             "region": "The Miskatonic Museum - After Act 1",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+fight)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)}"
         },
         {
             "name": "Harold Walsted - Take Control",
@@ -325,7 +325,7 @@
                 "The Miskatonic Museum - Act 2"
             ],
             "region": "The Miskatonic Museum - After Act 1",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+fight)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)}"
         },
         {
             "name": "Exhibit Hall: Restricted Hall - Investigated",
@@ -336,7 +336,7 @@
                 "The Miskatonic Museum - Act 3"
             ],
             "region": "The Miskatonic Museum - After Act 1",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+fight)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)}"
         },
         {
             "name": "Exhibit Hall: Restricted Hall - Victory Point",
@@ -347,7 +347,7 @@
                 "The Miskatonic Museum - Act 3"
             ],
             "region": "The Miskatonic Museum - After Act 1",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+fight)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)}"
         },
         {
             "name": "Searching for the Tome - Advanced",
@@ -358,7 +358,7 @@
                 "The Miskatonic Museum - Act 3"
             ],
             "region": "The Miskatonic Museum - After Act 2",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+fight)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)}"
         },
         {
             "name": "The Necronomicon - Resolution 1",
@@ -369,7 +369,7 @@
                 "The Miskatonic Museum - Act 3"
             ],
             "region": "The Miskatonic Museum - After Act 2",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+fight)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)}"
         },
         {
             "name": "The Necronomicon - Resolution 2",
@@ -380,7 +380,7 @@
                 "The Miskatonic Museum - Act 3"
             ],
             "region": "The Miskatonic Museum - After Act 2",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+fight)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+fight)}"
+            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate+evade)} or {AnyUnlockedInvestigatorWithActions(move+investigate+attack)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+evade)} or {TwoUnlockedInvestigatorsWithActions(move+investigate,move+attack)}"
         },
         {
             "name": "The Miskatonic Museum - Finished",

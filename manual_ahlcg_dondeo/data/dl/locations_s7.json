@@ -262,17 +262,6 @@
             "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
         },
         {
-            "name": "Tear Through Time - Investigated",
-            "category": [
-                "Dunwich Legacy",
-                "Location",
-                "Lost in Time and Space",
-                "Lost in Time and Space - Act 4"
-            ],
-            "region": "Lost in Time and Space - After Act 2",
-            "requires": "{AnyUnlockedInvestigatorWithActions(move+investigate)}"
-        },
-        {
             "name": "Finding a New Way - Advanced",
             "category": [
                 "Dunwich Legacy",

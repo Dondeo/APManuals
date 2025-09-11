@@ -215,7 +215,7 @@ def EligibleUnlockedInvestigatorCanCommit(world: World, state: CollectionState, 
 
         # Remove Unnecessary Categories
         categoryFilter = ["Card", "Asset", "Event", "Skill", "Hand Slot", "2 Hand Slots", "Ally Slot", "Body Slot",
-                          "Arcane Slot", "2 Arcane Slots", "Accessory Slot"]
+                          "Arcane Slot", "2 Arcane Slots", "Accessory Slot", "Exceptional"]
         currentItemCategories = list(filter(lambda x: x not in categoryFilter, currentItem["category"]))
 
         # Check if Investigator has requirements to have card into his deck

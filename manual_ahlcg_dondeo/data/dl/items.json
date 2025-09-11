@@ -101,13 +101,13 @@
             "useful": true
         },
         {
-            "name": "The Necronomicon: Olaus Wormius Translation",
+            "name": "The Necronomicon - Olaus Wormius Translation",
             "category": [
                 "Dunwich Legacy",
                 "Standalone",
                 "Hand Slot"
             ],
-            "progressive": true
+            "progression": true
         },
         {
             "name": "The County Essex Express - Resolution 1 - Unlocked",
@@ -191,7 +191,7 @@
                 "Dunwich Legacy",
                 "Standalone"
             ],
-            "progressive": true
+            "progression": true
         }
      ]
 }

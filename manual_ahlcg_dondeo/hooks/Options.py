@@ -1,5 +1,5 @@
 # Object classes from AP that represent different types of options that you can create
-from Options import Option, FreeText, NumericOption, Toggle, DefaultOnToggle, Choice, TextChoice, Range, NamedRange, OptionGroup, PerGameCommonOptions
+from Options import Option, FreeText, NumericOption, Toggle, DefaultOnToggle, Choice, TextChoice, Range, NamedRange, OptionGroup, PerGameCommonOptions, Visibility
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
 from ..Helpers import is_option_enabled, get_option_value
 from typing import Type, Any
@@ -294,14 +294,9 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
 def after_options_defined(options: Type[PerGameCommonOptions]):
-    # To access a modifiable version of options check the dict in options.type_hints
-    # For example if you want to change DLC_enabled's display name you would do:
-    # options.type_hints["DLC_enabled"].display_name = "New Display Name"
-
-    #  Here's an example on how to add your aliases to the generated goal
-    # options.type_hints['goal'].aliases.update({"example": 0, "second_alias": 1})
-    # options.type_hints['goal'].options.update({"example": 0, "second_alias": 1})  #for an alias to be valid it must also be in options
-
+    for option in options.type_hints.keys():
+        if 'playing_campaign_' in option:
+            options.type_hints[option].visibility = Visibility.none
     pass
 
 # Use this Hook if you want to add your Option to an Option group (existing or not)

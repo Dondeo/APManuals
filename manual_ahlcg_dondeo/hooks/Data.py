@@ -39,9 +39,12 @@ def after_load_location_file(location_table: list) -> list:
     location_table.extend(load_data_file("dl", "locations_investigators.json")["data"])
     return location_table
 
-# called after the locations.json file has been loaded, before any location loading or processing has occurred
+# called after the locations.json file after_load_region_filehas been loaded, before any location loading or processing has occurred
 # if you need access to the locations after processing to add ids, etc., you should use the hooks in World.py
 def after_load_region_file(region_table: dict) -> dict:
+    region_table.update(load_data_file("core", "regions.json"))
+    region_table.update(load_data_file("dl", "regions.json"))
+    region_table.pop('$schema', '')
     return region_table
 
 # called after the categories.json file has been loaded

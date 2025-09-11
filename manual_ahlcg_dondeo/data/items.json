@@ -2,6 +2,11 @@
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
     "data": [
         {
+            "name": "Progressive History Unlock",
+            "progression": true,
+            "count": 100
+        },
+        {
             "name": "Fast - One investigator Gain 1 Resource",
             "filler": true,
             "count": 20
